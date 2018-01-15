@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title> Hickory </title>
+
+	<!--Viewport initializes for responsive design-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<!--Include the Lora font-->
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+	<!--Include the javascript code-->
+	<script type="text/javascript" src="HickoryOnTheHill.js"></script>
+	<!--Include the CSS stylesheet-->
+	<link rel="stylesheet" type="text/css" href="HickoryOnTheHill.css"> </link>
+</head>
+
+
+
+
+<body>
+	<!--Start of navbar-->
+	<div id="navBarContainer" class="container">
+		<div id="navBar" class="topnav" >
+			<a href="home.html">Home</a>
+			<a href="booking.html">Booking</a>
+			<a href="directions.html">Directions</a>
+			<a href="contact.html" class="active">Contact</a>
+			<a href="hiking.html">Hiking</a>
+			<a href="attractions.html">Attractions</a>
+			<a href="bungalows.html">Bungalows</a>
+			<a href="aboutUs.html">About us</a>
+			<a href="javascript:void(0);" class="icon" onclick="toggleIcon()">&#9776;</a>
+		</div>
+	</div>
+	<!--End of navbar-->
+	
+	<div id="mainContentDiv">
+		
+		<!--Start of contact tab-->
+		<div id="contact" class="tabContent">
+
+			
+			<div id="introDiv" class="container px-5 py-3"> 
+				<!--Start of Contact Us Blurb-->
+				<div class="row">
+					<div id="introTitleDiv" class="col-md-12 text-center mb-4 my-2">
+						Contact Us
+					</div>
+				</div>
+				<div class="row">
+					<div id="introTextDiv" class="col-md-12">
+						<p>If you have any questions or inquiries, we'd be glad to help. Please don't hesitate to contact us through any of the means below.</p>
+						<p>We look forward to hearing from you.</p>
+					</div>
+				</div>
+				<!--End of Contact Us Blurb-->
+				<!--Start of Contact Details-->
+				<div class="row">
+					<div id="contactDetailsDiv" class="col-md-12">
+						<p><br/>
+							Email: <a href="mailto:vrajananda@hotmail.com">vrajananda@hotmail.com</a>
+						</p>
+						<p>
+							Phone: <a href="tel:+60122066422"> +60 12 2066422 </a>
+						</p>
+						<p>
+							Address: <br/><a href="https://www.google.com/maps/place/Hickory/@5.4209605,100.2675077,17z/data=!3m1!4b1!4m5!3m4!1s0x304ac2706d4f4f01:0x3b0ee8dfa9c4eef9!8m2!3d5.4209173!4d100.2696922?hl=en">Hickory Bungalow<br/>
+							Lower Tunnel Road (via Lower Tunnel Station),<br/>
+							Penang Hill, Georgetown
+							11500, <br/> 
+							Penang, Malaysia</a>
+						</p>
+						<p>
+							Website: <a href="HickoryOnTheHill.com">www.hickoryonthehill.com</a>
+						</p>
+					</div>
+				</div>
+				<!--End of Contact Details-->
+				<!--Start of Google Maps-->
+				<div class="row">
+					<div id="googleMapsDiv" class="col-md-12 my-4">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.973739429142!2d100.26750771434403!3d5.420960536501454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac2706d4f4f01%3A0x3b0ee8dfa9c4eef9!2sHickory!5e0!3m2!1sen!2sus!4v1514359797109" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+					<div class="col-md-12">
+						<p>
+							Additional direction information can be found in our <a href="directions.html">Directions</a> webpage.
+						</p>
+					</div>
+				</div>
+				<!--End of Google Maps-->
+			</div>
+			
+		</div>
+		<!--End of contact tab-->
+
+
+		<div id="footerDiv">
+			Copyright &copy; Sivananda Rajananda
+		</div>
+	</body>
+	</html>

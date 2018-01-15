@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title> Hickory </title>
+
+	<!--Viewport initializes for responsive design-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<!--Include the Lora font-->
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+	<!--Include the javascript code-->
+	<script type="text/javascript" src="HickoryOnTheHill.js"></script>
+	<!--Include the CSS stylesheet-->
+	<link rel="stylesheet" type="text/css" href="HickoryOnTheHill.css"> </link>
+</head>
+
+
+
+
+<body>
+	<!--Start of navbar-->
+	<div id="navBarContainer" class="container">
+		<div id="navBar" class="topnav" >
+			<a href="home.html">Home</a>
+			<a href="booking.html">Booking</a>
+			<a href="directions.html">Directions</a>
+			<a href="contact.html">Contact</a>
+			<a href="hiking.html" class="active">Hiking</a>
+			<a href="attractions.html">Attractions</a>
+			<a href="bungalows.html">Bungalows</a>
+			<a href="aboutUs.html">About us</a>
+			<a href="javascript:void(0);" class="icon" onclick="toggleIcon()">&#9776;</a>
+		</div>
+	</div>
+	<!--End of navbar-->
+	
+	<div id="mainContentDiv">
+		
+		<!--Start of Hiking tab-->
+		<div id="hiking" class="tabContent">
+
+			
+			<div id="introDiv" class="container px-5 py-3"> 
+				<!--Start of Hiking Blurb-->
+				<div class="row">
+					<div id="introTitleDiv" class="col-md-12 text-center mb-4 my-2">
+						Hiking Trails on Penang Hill
+					</div>
+				</div>
+				<div class="row">
+					<div id="introTextDiv" class="col-md-12">
+						<p> 
+							As the hill is located very close to populated areas, thousands of hikers of all levels of fitness make full use of the various trekking trials and bridle paths every day. There is also the 5 km tarred road popularly called the &quot;jeep track&quot;, which is open only to the vehicles of the hill residents. The most popular pit stops along this route are 52 and 84. Here, hikers can get refreshments prepared by volunteers.
+						</p>
+						<p>
+							There are numerous trails from the lowlands up Penang Hill. Among the popular routes are the ones from Lower Station (Air Itam), from Moongate (near Botanical Gardens), and along the Jeep Track in Botanical Gardens. See Map below for details of the various trails.
+						</p>
+
+					</div>
+				</div>
+				<!--End of Hiking Blurb-->
+				
+				<hr>
+				
+				<div class="clearfix">
+					<h5> <br/><u><b>Jeep Track to Penang Hill</b></u></h5>
+					<figure>
+						<img src="images/restAreaPoint47.jpg" alt="Rest Area Point 47">
+						<figcaption>
+							Rest Area at Point 47
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="images/teaKioskPoint84.jpg" alt="Tea Kiosk at Point 84 ">
+						<figcaption>
+							Tea Kiosk at Point 84 
+						</figcaption>
+					</figure>
+					<p>
+						The alternative route to Penang Hill is by the Jeep Track from Botanical Gardens. Marker points were placed along the Jeep Road to indicate the distance. Point 47 is a rest area. Point 84 is the first Tea Kiosk along this route. It offers black coffee, chinese tea, boiled water and biscuits to hikers for free. Donations are welcome.
+					</p>
+				</div>
+				
+				<hr>
+				
+				<div class="clearfix">
+					<h5> <br/><u><b>Moniot Road</b></u></h5>
+					<figure>
+						<img src="images/moniotRoadSignboard.jpg" alt="The Signboard on Moniot Road ">
+						<figcaption>
+							The Signboard on Moniot Road 
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="images/moniotRoadWitchHazel.jpg" alt="Flowering Witch Hazel at Moniot Road">
+						<figcaption>
+							Flowering Witch Hazel at Moniot Road 
+						</figcaption>
+					</figure>
+					<p>
+						Moniot Road is of special historical and botanical significance. Early botanists of Penang collected many of the hill flora specimens now found in major herbariums around the world. One such botanist was Charles Curtis who established the 30ha (74 acres) Penang Botanical Gardens in 1884.
+					</p>
+				</div>
+				
+				<hr>
+				
+				<h5><br/><u><b>Hiking Map of Penang Hill</b></u></h5>
+				<img src="images/penangHillHikingMap.jpg" width="100%">
+				
+			</div>
+		</div>
+		<!--End of hiking tab-->
+
+
+		<div id="footerDiv">
+			Copyright &copy; Sivananda Rajananda
+		</div>
+	</body>
+	</html>

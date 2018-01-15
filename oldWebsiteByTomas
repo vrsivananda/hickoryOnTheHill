@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="cs" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="robots" content="index, follow" />
+		
+		<title>Hickory Bungalow accommodation</title>
+		
+		<style type="text/css">
+			html,body {text-align: center; margin-top: 30px; font-family: Arial, Verdana, sans-serif; color: #666;}
+			a {color: #999;}
+			h2 {padding-top: 25px;}
+		</style>
+
+</head>
+<body>
+	<div id="welcome">
+			<h1>Hickory Bungalow</h1>
+		<p>
+			Accommodation on Penang Hill, Malaysia<br /><br />
+			<img src="http://hickory.puxis.com/georgetown.jpg" style="width: 100%; max-width: 600px;" />
+		</p>
+		<h2>Location</h2>
+		<p>
+		 Hickory Bungalow<br />
+		Lower Tunnel Road (via Lower Tunnel Station), Penang Hill,<br />Georgetown 11500, Penang,<br />Malaysia
+		</p>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d70261.86037944163!2d100.22973983338206!3d5.431796026560362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac2706d4f4f01%3A0x3b0ee8dfa9c4eef9!2sHIckory+on+the+Hill!5e0!3m2!1scs!2scz!4v1511252452405" frameborder="0" style="border:0; width: 100%; max-width: 600px; height: 350px;" allowfullscreen></iframe>
+		<h2>Contact</h2>
+		<p>
+		Telephone: <a href="tel:+60122066422">+60 12 2066422</a><br />
+		Email: <a href="mailto:vrajananda@hotmail.com">vrajananda@hotmail.com</a><br />
+		Website: <a href="http://www.hickoryonthehill.com">www.hickoryonthehill.com</a>
+		</p>
+		<h2>Online reservation</h2>
+		<!-- puxis script -->
+		<div id="PuxisEmbed"></div>
+		<!-- end of puxis script -->
+	</div>
+	<!-- puxis script -->
+	<script type="text/javascript" src="http://booking.puxis.com/script/1177/">
+	</script>
+	<!-- end of puxis script -->
+</body>
+</html>
+
+
