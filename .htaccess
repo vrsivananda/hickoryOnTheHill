@@ -1,0 +1,6 @@
+#Redirect / http://www.hickoryonthehill.com/home.html
+
+
+DirectoryIndex home.html
+
+
