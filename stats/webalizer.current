@@ -1,10 +1,9 @@
-# Webalizer V2.23-08 Incremental Data - 03/03/2018 00:42:28
-2018 3 3 0 42 28
-76 50 30 36 4 4 3447522 22 22 0
-2 3 37 1 3
-16 8 540969 10 7 7
-57 41 2900526 22 13 13
-3 1 6027 2 2 2
+# Webalizer V2.23-08 Incremental Data - 05/02/2018 00:12:10
+2018 5 2 0 12 10
+933 552 33 103 22 7 298970206 107 30 0
+1 2 617 1 2
+931 552 298968480 32 107 30
+2 0 1726 1 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -33,52 +32,53 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
-40 30 2850324 3
-4 2 29143 2
-3 2 9476 2
-4 3 12250 2
-3 2 487294 1
-1 1 4301 1
-2 1 5164 1
+0 0 0 0 0 0
+8 3 21879 3
+72 71 41225917 4
+0 0 0 0
+52 51 17554281 6
+617 295 207797720 17
+16 12 7294252 2
+79 64 16281956 40
+0 0 0 0
+45 28 3314899 8
+13 11 4780321 4
+0 0 0 0
+1 1 5205 1
+1 1 4209 1
+2 2 19386 2
 0 0 0 0
 0 0 0 0
-3 0 2589 0
+4 3 26150 3
+4 1 51365 1
+7 2 16552 5
+4 2 16590 4
+4 3 531030 2
+3 2 28277 3
+1 0 217 1
 0 0 0 0
-1 1 0 1
-0 0 0 0
-1 0 863 1
-0 0 0 0
-0 0 0 0
-0 0 0 0
-3 0 2589 1
-5 3 13205 2
-4 3 21722 3
-0 0 0 0
-0 0 0 0
-0 0 0 0
-2 2 8602 2
 0
 0
 0
-50
+552
 0
 0
+0
+0
+0
+19
+0
+0
+23
+0
+322
 0
 0
 0
 0
 0
 0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-26
+17
 0
 0
 0
@@ -99,202 +99,382 @@
 0
 0
 # -urls- 
-/images/fernhillBungalowApproaching.jpg
-1 1 0 174621 0 0
-/images/fernhillBungalow.jpg
-1 1 0 102518 0 0
-/images/theGreatWallSideView.jpg
-1 1 0 97355 0 0
-/images/monSejour.jpg
-1 1 0 33956 0 0
-/images/brothersBungalowSignboards.jpg
-1 1 0 76938 0 0
+/images/gallery/HickoryBed10.jpg
+1 3 0 555604 0 0
+/booking.html
+0 7 0 72318 2 0
+/images/gallery/HickoryBed9.jpg
+1 12 0 7214124 0 0
+/images/gallery/HickoryPatioLawn.jpg
+1 14 0 10810360 0 0
+/images/moniotRoadSignboard.jpg
+1 1 0 50694 0 0
+/images/home/HickorySunrise.jpg
+1 9 0 4131063 0 0
+/lightbox2/dist/js/lightbox-plus-jquery.min.map
+0 1 0 141203 0 0
+/images/gallery/HickoryBed2.jpg
+1 13 0 7276910 0 0
+/images/gallery/HickoryPorch.jpg
+1 13 0 7399838 0 0
+/images/gallery/HickoryPatio.jpg
+1 14 0 4494811 0 0
+/images/bellvueLawn.jpg
+1 1 0 114017 0 0
+/images/davidBrownsDiningTable.jpg
+1 1 0 88274 0 0
+/Table_Responsive_v1/Table_Responsive_v1/vendor/bootstrap/css/bootstrap.min.css
+0 7 0 499848 0 0
+/Table_Responsive_v1/Table_Responsive_v1/fonts/OpenSans/OpenSans-Regular.ttf
+0 6 0 869104 0 0
+/images/gallery/HickoryBed6a.jpg
+1 13 0 4727944 0 0
+/lightbox2/dist/js/lightbox-plus-jquery.min.js
+0 13 0 677726 0 0
+/images/gallery/HickoryBed1a.jpg
+1 13 0 7222970 0 0
+/images/gallery/HickorySunrise.jpg
+1 12 0 2754042 0 0
+/images/home/HickoryLoungeUpstairs.jpg
+1 9 0 5203998 0 0
+/HickoryOnTheHill.js
+0 21 0 4872 0 0
+/contactForm/contactengine.php
+0 10 0 610 0 0
+/images/penangHillMap.jpg
+1 1 0 628267 0 0
+/Table_Responsive_v1/Table_Responsive_v1/vendor/select2/select2.min.js
+0 6 0 266656 0 0
+/images/gallery/HickoryBed6.jpg
+1 13 0 4048219 0 0
+/Table_Responsive_v1/Table_Responsive_v1/fonts/font-awesome-4.7.0/css/font-awesome.min.css
+0 6 0 124000 0 0
+/images/gallery/HickoryBed3b.jpg
+1 13 0 3398478 0 0
+/Table_Responsive_v1/Table_Responsive_v1/js/main.js
+0 6 0 248 0 0
+/contactTesting.html
+0 6 0 20460 0 0
 /aboutUs.html
-0 2 0 8786 2 1
-/images/brothersBungalowDormitory.jpg
-1 1 0 41204 0 0
-/images/theCragFilmSetForIndochine1.jpg
-1 1 0 67556 0 0
-/images/railwayBungalow.jpg
-1 1 0 39204 0 0
-/images/richmondFrontView.jpg
-1 1 0 125706 0 0
-/images/richmondPorch.jpg
-1 1 0 128463 0 0
-/images/theGreatWallCloserView.jpg
-1 1 0 118809 0 0
-/images/belRetiroApproaching.jpg
-1 1 0 133207 0 0
+0 3 0 12627 1 1
+/images/gallery/HickoryBed4.jpg
+1 13 0 8346116 0 0
+/images/home/HickoryBed2.jpg
+1 8 0 9697016 0 0
+/images/penangHillHikingMap.jpg
+1 1 0 261059 0 0
+/images/gallery/HickoryLoungeUpstairs.jpg
+1 12 0 3406464 0 0
+/images/gallery/HickoryCourtyard.jpg
+1 14 0 5463411 0 0
+/images/gallery/HickoryBed3.jpg
+1 13 0 4556699 0 0
+/images/gallery/HickoryGarden.jpg
+1 13 0 9110520 0 0
+/images/gallery/HickoryBed1b.jpg
+1 12 0 3157968 0 0
+/images/monkeyCupGardenVenusFlytrap.jpg
+1 1 0 90414 0 0
+/images/favicon/dawnFavicon.png
+1 8 0 21456 0 0
+/images/gallery/HickoryLoungeDownstairs1.jpg
+1 13 0 4213349 0 0
+/images/gallery/HickoryBed12a.jpg
+1 12 0 7021308 0 0
+/images/gallery/HickoryBed8.jpg
+1 13 0 10398017 0 0
+/images/gallery/HickoryBed5.jpg
+1 9 0 1854032 0 0
+/images/gallery/HickoryAerialDawn.jpg
+1 14 0 6503035 0 0
 /attractions.html
-0 1 0 7109 1 0
-/images/methodistCentre.jpg
-1 1 0 37135 0 0
+0 2 0 13900 1 0
+/images/gallery/HickoryBed7.jpg
+1 4 0 693870 0 0
+/Table_Responsive_v1/Table_Responsive_v1/vendor/bootstrap/js/bootstrap.min.js
+0 6 0 204572 0 0
+/lightbox2/dist/images/close.png
+1 12 0 1680 0 0
 /hiking.html
-0 1 0 5023 1 1
-/images/theCragViewFromWithin.jpg
-1 1 0 67786 0 0
-/images/monSejourPaintedGlass.jpg
-1 1 0 47972 0 0
+0 1 0 3906 0 1
+/images/booking/airbnbLogo.png
+1 6 0 7092 0 0
+/lightbox2/dist/images/next.png
+1 12 0 8100 0 0
+/Table_Responsive_v1/Table_Responsive_v1/css/main.css
+0 7 0 23980 0 0
+/images/monkeyCupGardenPitcherPlant.jpg
+1 1 0 130890 0 0
+/images/home/HickoryCourtyard.jpg
+1 9 0 6238116 0 0
 /HickoryOnTheHill.css
-0 3 0 8355 0 0
-/images/lounge.jpg
-1 1 0 482130 0 0
-/images/richmondGarden.jpg
-1 1 0 514230 0 0
-/images/eyethrope.jpg
-1 1 0 51004 0 0
-/images/belRetiro.jpg
-1 1 0 97570 0 0
+0 23 0 51675 0 0
+/contactForm/style.css
+0 6 0 3354 0 0
+/images/gallery/HickoryLoungeUpstairs1.jpg
+1 12 0 4604454 0 0
+/Table_Responsive_v1/Table_Responsive_v1/vendor/perfect-scrollbar/perfect-scrollbar.css
+0 7 0 9776 0 0
+/images/home/HickoryBalconyDawn.jpg
+1 9 0 11783943 0 0
+/images/gallery/HickoryBed7a.jpg
+1 4 0 453519 0 0
+/images/gallery/HickoryBed8a.jpg
+1 13 0 8637946 0 0
+/lightbox2/dist/images/loading.gif
+1 12 0 50856 0 0
+/Table_Responsive_v1/Table_Responsive_v1/css/util.css
+0 6 0 335264 0 0
+/images/gallery/HickoryBed11.jpg
+1 1 0 405345 0 0
+/images/routeToHickorySmaller.png
+1 1 0 1756535 0 0
+/images/home/HickoryBed8.jpg
+1 8 0 12397984 0 0
+/images/gallery/HickoryBalconyDawn.jpg
+1 14 0 10261965 0 0
+/images/gallery/HickoryBed2a.jpg
+1 12 0 3171138 0 0
+/images/gallery/HickoryBed9a.jpg
+1 12 0 7234728 0 0
 /contact.html
-0 1 0 4220 1 0
+0 10 0 44178 3 0
+/images/railwayTrack.jpg
+1 1 0 80420 0 0
+/gallery.html
+0 15 0 150517 3 4
 /directions.html
-0 1 0 9449 1 0
-/images/moyCraigFront.jpg
-1 1 0 105259 0 0
-/images/convalescentBungalow.jpg
-1 1 0 109231 0 0
-/images/moyCraigStairs.jpg
-1 1 0 134582 0 0
+0 3 0 24087 1 0
+/Table_Responsive_v1/Table_Responsive_v1/vendor/jquery/jquery-3.2.1.min.js
+0 6 0 346636 0 0
+/images/gallery/HickoryBed10a.jpg
+1 3 0 487185 0 0
+/images/gallery/HickoryDawnOverGeorgetown.jpg
+1 13 0 5970955 0 0
+/lightbox2/dist/images/prev.png
+1 12 0 8160 0 0
+/images/davidBrownsFireplace.jpg
+1 1 0 102111 0 0
+/images/home/HickoryAerialDay.jpg
+1 9 0 5533686 0 0
+/images/monkeyCupGardenSarracenia.jpg
+1 1 0 166335 0 0
+/images/gallery/HickoryLoungeDownstairs.jpg
+1 13 0 4304006 0 0
+/contactForm/contactthanks.php
+0 11 0 9239 0 1
 /
-0 11 0 43010 11 2
-/images/theCragApproaching.jpg
-1 1 0 68608 0 0
-/images/theCragFilmSetForIndochine2.jpg
-1 1 0 103948 0 0
-/images/graceDieu.jpg
-1 1 0 38416 0 0
-/images/moyCraigSide.jpg
-1 1 0 132592 0 0
-/images/theCragViewFromLanding.jpg
-1 1 0 94112 0 0
+0 18 0 137326 16 2
+/Table_Responsive_v1/Table_Responsive_v1/vendor/animate/animate.css
+0 6 0 95392 0 0
+/images/gallery/HickoryBed6b.jpg
+1 13 0 6911760 0 0
+/lightbox2/dist/js/lightbox-plus-jquery.js
+0 1 0 286450 0 0
+/images/gallery/HickoryBed8b.jpg
+1 13 0 7734509 0 0
+/images/bellvueHotel.jpg
+1 1 0 130268 0 0
+/images/home/HickoryLoungeDownstairs.jpg
+1 8 0 4569568 0 0
+/images/home/HickoryAerialDawnWide.jpg
+1 9 0 5282424 0 0
+/lightbox2/dist/css/lightbox.min.css
+0 14 0 18256 0 0
+/Table_Responsive_v1/Table_Responsive_v1/vendor/bootstrap/js/popper.js
+0 6 0 326680 0 0
+/images/gallery/HickoryBed12.jpg
+1 12 0 8530824 0 0
+/images/gallery/HickoryLoungeDownstairs2.jpg
+1 12 0 5507802 0 0
+/images/gallery/HickoryBed3a.jpg
+1 12 0 3118032 0 0
+/Table_Responsive_v1/Table_Responsive_v1/vendor/select2/select2.min.css
+0 6 0 60784 0 0
 /bungalows.html
-0 2 0 44788 2 1
-/images/brothersBungalowEntrance.jpg
-1 1 0 70232 0 0
+0 1 0 19982 1 0
+/images/gallery/HickoryAerialDay.jpg
+1 14 0 4652931 0 0
+/images/gallery/HickoryAerialGreenery.jpg
+1 14 0 4872147 0 0
+/images/home/HickoryDawn.jpg
+1 10 0 5178800 0 0
+/images/gallery/HickoryBed1.jpg
+1 13 0 7285950 0 0
+/images/gallery/HickoryBed5a.jpg
+1 8 0 1506375 0 0
+/images/davidBrowns.jpg
+1 1 0 101913 0 0
 # End Of Table - urls
 # -sites- (monthly)
-64.233.173.20
-0 1 0 863 0 0
--
-64.233.173.8
-0 11 10 1404612 0 0
--
-54.183.165.74
-0 1 1 4301 1 1520032651
+35.231.120.193
+0 3 1 8295 1 1525197725
 /
 5.255.250.75
-0 1 1 482130 0 0
+0 1 0 863 0 0
 -
-66.249.76.69
-0 2 1 5256 1 1519869877
-/aboutUs.html
-35.196.240.185
-0 1 1 4301 1 1520020515
-/
-66.249.76.95
-0 1 1 4220 1 1519869891
+157.55.39.117
+0 1 1 5205 1 1525192227
 /contact.html
-187.152.20.101
-0 1 0 863 1 1520037748
+173.252.124.216
+0 1 1 517880 0 0
 -
-64.233.173.21
-0 1 0 863 0 0
--
-64.233.173.22
-0 1 0 863 0 0
--
-138.246.253.19
-0 1 1 0 1 1519989394
-/
-64.233.173.10
-0 9 8 636480 1 1519951363
+100.43.91.129
+0 1 1 19982 1 1525208477
 /bungalows.html
-5.255.250.19
-0 10 5 47535 5 1520018420
-/attractions.html
-64.233.173.11
-0 13 10 766660 0 0
--
-77.88.5.17
+93.158.161.87
+0 2 1 8295 2 1525208276
+/
+66.249.64.158
 0 2 0 1726 0 0
 -
-54.67.59.131
-0 1 1 4301 1 1519968235
+100.43.85.188
+0 1 1 8078 1 1525201218
 /
-113.210.207.240
-0 1 1 33956 0 0
--
-66.249.76.61
-0 1 1 2785 0 0
--
-195.22.127.224
-0 1 0 863 0 0
--
-84.61.229.177
-0 1 1 4301 1 1519960754
+107.21.1.8
+0 3 2 10977 1 1525135235
 /
-38.142.192.74
-0 1 1 4301 1 1520034022
-/
-200.52.195.134
-0 1 0 863 1 1519998948
--
-66.249.79.35
-0 2 1 5164 1 1520037488
-/
-66.249.79.136
-0 1 1 4301 1 1520014665
-/
-129.78.110.124
-0 2 2 8602 2 1519960032
-/
-66.249.76.59
-0 1 0 863 0 0
--
-191.55.126.96
-0 1 0 863 1 1519923845
--
-93.158.161.105
-0 3 1 11175 1 1519932795
+77.88.5.17
+0 1 1 4209 1 1525206836
+/aboutUs.html
+183.78.46.112
+0 110 80 18748146 3 1525162921
 /directions.html
-100.43.85.164
+40.77.167.79
+0 1 1 3975 0 0
+-
+54.67.59.131
+0 2 1 8295 1 1525203098
+/
+47.106.149.44
+0 2 1 8295 1 1525211291
+/
+77.88.47.84
+0 3 2 19170 2 1525199250
+/attractions.html
+93.158.161.149
+0 1 0 227 0 0
+-
+40.77.167.36
+0 2 0 1090 0 0
+-
+46.118.115.22
+0 1 0 217 1 1525215120
+/
+93.158.161.135
+0 1 0 227 0 0
+-
+207.46.13.190
+0 1 1 559 0 0
+-
+204.101.161.159
+0 12 11 4780104 1 1525167735
+/
+100.43.81.110
 0 1 0 863 0 0
 -
-66.249.79.138
-0 2 1 3648 0 0
+93.158.161.127
+0 1 0 227 0 0
 -
+5.255.250.173
+0 1 1 50694 0 0
+-
+104.198.6.124
+0 2 0 1098 0 0
+-
+115.164.190.53
+0 761 454 274693290 3 1525157931
+/contactForm/contactthanks.php
+93.158.161.105
+0 1 0 217 1 1525201281
+/
+100.43.85.164
+0 2 1 8892 1 1525191877
+/directions.html
+158.85.81.116
+0 1 0 217 1 1525168757
+/
+84.201.133.83
+0 1 0 217 1 1525196536
+/
+54.85.182.120
+0 5 5 36878 3 1525181672
+/directions.html
+5.255.250.181
+0 1 1 12053 1 1525190875
+/booking.html
+40.77.167.135
+0 4 3 9745 2 1525164370
+/contact.html
 # End Of Table - sites (monthly)
 # -sites- (daily)
-187.152.20.101
-0 1 0 863 1 1520037748
+66.249.64.158
+0 2 0 1726 0 0
 -
-66.249.79.35
-0 2 1 5164 1 1520037488
-/
 # End Of Table - sites (daily)
 # -referrers- 
-android-app://com.google.android.googlequicksearchbox
+https://www.hickoryonthehill.com/contactForm/contactengine.php
+1 8
+https://www.hickoryonthehill.com/attractions.html
+1 9
+http://www.hickoryonthehill.com/
 1 1
-- (Direct Request)
-0 38
-http://www.hickoryonthehill.com/bungalows.html
-1 35
-Google
-2 1
-http://hickoryonthehill.com/
+hickoryonthehill.com
 1 2
+https://www.hickoryonthehill.com/contactForm/contactthanks.php
+1 5
+https://www.hickoryonthehill.com/gallery.html
+1 581
+https://www.hickoryonthehill.com/
+1 93
+https://hickoryonthehill.com/contactForm/contactthanks.php
+1 1
+https://hickoryonthehill.com/contactForm/contactengine.php
+1 2
+- (Direct Request)
+0 75
+https://hickoryonthehill.com/contactTesting.html
+1 6
+https://www.hickoryonthehill.com/booking.html
+1 96
+https://www.hickoryonthehill.com/contact.html
+1 5
+https://www.hickoryonthehill.com/home.html
+1 12
+https://www.hickoryonthehill.com/aboutUs.html
+1 1
+https://www.hickoryonthehill.com/directions.html
+1 3
+https://www.hickoryonthehill.com/Table_Responsive_v1/Table_Responsive_v1/css/main.css
+1 2
+http://hickoryonthehill.com/
+1 1
+diagnostics://4/
+0 4
+https://www.hickoryonthehill.com/images/favicon/dawnFavicon.png
+1 1
+https://www.hickoryonthehill.com/contactTesting.html
+1 12
+https://hickoryonthehill.com/bookingTesting.html
+1 1
 # End Of Table - referrers
 # -agents- 
 Mozilla/5.0
-0 47
+0 896
+DuckDuckGo-Favicons-Bot/1.0
+0 3
 Netscape 6 compatible
-2 47
+2 896
 YandexImages/3.0
 0 1
+facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+0 1
 Googlebot/2.1
-0 9
+0 2
 YandexBot/3.0
-0 16
+0 18
+bingbot/2.0
+0 9
 # End Of Table - agents
 # -search strings- 
 # End Of Table - search strings

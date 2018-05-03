@@ -126,17 +126,27 @@ u{
 
 
 #mainContentDiv{
-  background-color:#8B9293;
+  background-color: #8B9293;
 }
 
 #carouselDiv{
   width:100%;
   padding:0;
 }
+
 .carouselImg{
   width: 100%;
   max-height: 600px;
 }
+
+/* Slideshow*/
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
 
 #introDiv{
   background-color:white;
@@ -151,10 +161,45 @@ u{
   background-color:white;
 }
 
-/*Contact*/
+/* ====== Contact ====== */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#contactFormDiv {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
 
 #contactDetailsDiv{
-  background-color: #D5D5D5;
+}
+
+#contactDetailsInnerDiv{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 
 #googleMapsDiv{
@@ -172,7 +217,7 @@ u{
   height: 100% !important;
 }
 
-/*Directions*/
+/* ====== Directions ====== */
 
 #directionsDetailsDiv img{
   width: 100%;
@@ -180,12 +225,56 @@ u{
   margin-right: 0;
 }
 
-/*Bungalows*/
+/* ====== Bungalows ====== */
 #anecdoteDiv{
   background-color: #F0FFFF;
 }
 
-/*Footer*/
+/* ====== Gallery ====== */
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 0px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+/* ====== Footer ====== */
 
 #footerDiv{
   background-color: black;

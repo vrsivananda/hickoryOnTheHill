@@ -1,6 +1,9 @@
-#Redirect / http://www.hickoryonthehill.com/home.html
-
-
 DirectoryIndex home.html
 
 
+
+
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.hickoryonthehill.com/$1 [R,L]
+#Redirect / http://www.hickoryonthehill.com/home.html

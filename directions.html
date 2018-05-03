@@ -14,7 +14,9 @@
 	<!--Include the javascript code-->
 	<script type="text/javascript" src="HickoryOnTheHill.js"></script>
 	<!--Include the CSS stylesheet-->
-	<link rel="stylesheet" type="text/css" href="HickoryOnTheHill.css"> </link>
+	<link rel="stylesheet" type="text/css" href="HickoryOnTheHill.css"></link>
+	<!--Favicon-->
+	<link rel="icon" type="image/png" href="images/favicon/dawnFavicon.png"/>
 </head>
 
 
@@ -25,13 +27,14 @@
 	<div id="navBarContainer" class="container">
 		<div id="navBar" class="topnav" >
 			<a href="home.html">Home</a>
-			<a href="booking.html">Booking</a>
-			<a href="directions.html" class="active">Directions</a>
-			<a href="contact.html">Contact</a>
-			<a href="hiking.html">Hiking</a>
+			<a href="gallery.html">Gallery</a>
 			<a href="attractions.html">Attractions</a>
+			<a href="hiking.html">Hiking</a>
 			<a href="bungalows.html">Bungalows</a>
+			<a href="directions.html" class="active">Directions</a>
 			<a href="aboutUs.html">About us</a>
+			<a href="contact.html">Contact</a>
+			<a href="booking.html">Booking</a>
 			<a href="javascript:void(0);" class="icon" onclick="toggleIcon()">&#9776;</a>
 		</div>
 	</div>
@@ -52,9 +55,9 @@
 				</div>
 				<div class="row">
 					<div id="introTextDiv" class="col-md-12">
-						<p>Getting to us might be slightly tricky, but only because Hickory is uniquely located atop Penang Hill, away from and overlooking the bustling city below.</p>
-						<p>In this page, you will find instructions and directions on how to find your way to us.</p>
-						<p>As usual, please feel free to <a href="contact.html"> contact us</a> if you require any extra assistance or if you have any questions. It is, after all, our responsibility that you arrive here safely.</p>
+						<p>Getting to us is relatively straightforward. Hickory is uniquely located on Penang Hill's eastern slope, away from but overlooking bustling Georgetown.</p>
+						<p>Here, you will find directions to get to us. Enjoy the journey to Hickory and we look forward to receiving you!</p>
+						
 					</div>
 				</div>
 				<!--End of Directions Blurb-->
@@ -65,7 +68,7 @@
 						<h3><br/><u>Directions</u></h3>
 						<h5> <br/>1. <b>By Train</b></h5>
 						<p>
-							From the airport, you can take a taxi to the <a href="https://www.google.com/maps/place/Penang+Hill+Railway+Lower+Station/@5.4086825,100.2765461,18.75z/data=!4m8!1m2!2m1!1spenang+hill+train+station!3m4!1s0x0:0x5653437d3012687c!8m2!3d5.4085247!4d100.2770582?hl=en">Penang Hill Railway Lower Station</a>. Once there, you can purchase tickets for the train. Information about station hours and tickets can be found <a href="http://www.penanghill.gov.my/index.php/en/ticket-service">here.</a>
+							Make your way to <a href="https://www.google.com/maps/place/Penang+Hill+Railway+Lower+Station/@5.4086825,100.2765461,18.75z/data=!4m8!1m2!2m1!1spenang+hill+train+station!3m4!1s0x0:0x5653437d3012687c!8m2!3d5.4085247!4d100.2770582?hl=en">Penang Hill Railway Lower Station</a>. Information about tickets and train times can be found <a href="http://www.penanghill.gov.my/index.php/en/ticket-service">here.</a>
 						</p>
 						<p>
 							The train ride is an experience in itself. The Swiss-engineered Funicular train travels each way on a regular basis. The 2 cars (at opposite ends of the track) are joined by a cable which goes over a pulleyed mechanism at Upper Station. Both cars move simultaneously on a single track which shunts mid-way to allow them to pass. The only other such rail system in Asia is on Hong Kong's Victoria Peak.
@@ -74,47 +77,44 @@
 							If you are coming by car you can park at <a href="https://www.google.com/maps/place/Penang+Hill+Parking/@5.4075847,100.2766053,18.62z/data=!4m8!1m2!2m1!1spenang+hill+train+station!3m4!1s0x0:0xcb6901de222f3c52!8m2!3d5.4078832!4d100.2772959?hl=en">Penang Hill Parking</a> before purchasing your ticket.
 						</p>
 						<p>
-							Alternatively, there is also an <a href="https://www.google.com.my/maps/place/Then+Kong+Thnuah+Temple/@5.408552,100.2759876,17.69z/data=!4m12!1m6!3m5!1s0x304ac213487e5de7:0xf5c7a551b23f67eb!2sThen+Kong+Thnuah+Temple!8m2!3d5.409737!4d100.2770307!3m4!1s0x304ac213487e5de7:0xf5c7a551b23f67eb!8m2!3d5.409737!4d100.2770307?hl=en">open car park nearby</a>.
+							Alternatively, there is an <a href="https://www.google.com.my/maps/place/Then+Kong+Thnuah+Temple/@5.408552,100.2759876,17.69z/data=!4m12!1m6!3m5!1s0x304ac213487e5de7:0xf5c7a551b23f67eb!2sThen+Kong+Thnuah+Temple!8m2!3d5.409737!4d100.2770307!3m4!1s0x304ac213487e5de7:0xf5c7a551b23f67eb!8m2!3d5.409737!4d100.2770307?hl=en">open car park nearby</a>.
 						</p>
 						<p>
-							Take the train and alight at <b>Lower Tunnel Station</b> (stop 3 in the <a href="#penangHillMap">map below</a>). The stopping train service is every half-hour on the hour (except on weekends, when it is every hour on the hour). <b>Make sure you board the front coach and let the driver know that you would like to alight at "Lower Tunnel Station" </b> as the train does not stop there automatically. Remember to retain your ticket for the return journey.
+							Take the train and alight at <b>Lower Tunnel Station</b> (stop "3" in the <a href="#penangHillMap">map below</a>). The stopping train service is every half-hour (hourly on weekends). <b>Board the front cabin and inform the driver that you wish to alight at "Lower Tunnel Station" </b> as the train does not stop there automatically. Retain your ticket for the return journey.
 						</p>
 						<p>
-							Alight at Lower Tunnel Station, walk for 5 minutes along Lower Tunnel Road and you will reach Hickory (Bungalow "14" in the <a href="#penangHillMap">map below</a>). This route is well signposted, but do feel free to <a href="contact.html">contact us</a> should you need any assistance.
+							Alight at Lower Tunnel Station, walk for 5 minutes along Lower Tunnel "Road" and you will reach Hickory (Bungalow "14" <a href="#penangHillMap"></a>). Hickory is signposted.
 						</p>
-						<h6><br/><u>Alternative train stops:</u></h6>
+						<h6><br/><u>Alternative train stop:</u></h6>
 						<p>
-							You can also stop at <b>Upper Station </b>(stop 1 in the <a href="#penangHillMap">map below</a>). From there, you walk along bye-paths A & F down to Hickory. It takes around 10 minutes.
+							You can also stop at <b>Upper Station </b>(stop "1" <a href="#penangHillMap"></a>). A 15-minute stroll down by-paths A & F leads to Hickory.
 						</p>
 						<h6 id="penangHillMap"><br/><u>Map of Penang Hill:</u></h6>
 						<p> 
-							This map is admittedly a little small. To view a version that you can zoom in on, click <a href="images/penangHillMap.jpg" target="_blank">here</a>.
-						</p>
-						<p>
-							The straight gray line that runs through the center of the map from the bottom is the railway, and the fifth red and white circle from the bottom (third from the top) is Lower Tunnel Station (stop 3). Base Station (where you will take the train up the hill) is at the bottom end of the railway line and not shown in the map.
+							To view a larger version of this Map, click <a href="images/penangHillMap.jpg" target="_blank">here</a>.
 						</p>
 						<img src="images/penangHillMap.jpg">
 						<h6><br/><br/><u>Directions to HICKORY from Lower Tunnel Station & from Top Station:</u></h6>
 						<p>
 							The map below shows how to get to Hickory from Lower Tunnel Station (via Lower Tunnel Road) or from Top Station (via By-Paths A & F). Click <a href="images/routeToHickoryLarger.png">here</a> for a larger map.
 						</p>
-						<img src="images/routeToHickorySmaller.jpg">
-						<h5> <br/><br/>2. <b>By Hike</b></h5>
+						<img src="images/routeToHickorySmaller.png">
+						<h5> <br/><br/>2. <b>Hiking</b></h5>
 						<p>
-							If you're a backpacker or are feeling adventurous, you can also hike up to Hickory.
+							You can also hike up to Hickory.
 						</p>
 						<p>
-							There is a hiking trail that starts near Lower Station up to Top Station. The start point of the trail is <a href="https://www.google.com/maps/place/Penang+Hill+Heritage+Trail/@5.4105718,100.2739103,17z/data=!3m1!4b1!4m5!3m4!1s0x304ac2134fd1c08d:0x9494f69078b36f95!8m2!3d5.4105718!4d100.276099?hl=en">here</a>.
+							The hiking trail starts near Lower Station and ends at Top Station. The start point of the trail is <a href="https://www.google.com/maps/place/Penang+Hill+Heritage+Trail/@5.4105718,100.2739103,17z/data=!3m1!4b1!4m5!3m4!1s0x304ac2134fd1c08d:0x9494f69078b36f95!8m2!3d5.4105718!4d100.276099?hl=en">here</a>.
 						</p>
 						<p> 
-							The trail shadows the railway track at the lower reaches and then moves away,  brushing past Hickory enroute to the top. This hike takes around 90 minutes from Base Station to Hickory.
+							The trail shadows the railway track initially and deviates thereafter. It brushes past Hickory enroute to the top. The hike takes around 90 minutes.
 						</p>
 						<h5> <br/>3. <b>By Jeep</b></h5>
 						<p>
-							Hickory is also accessible by 4-wheel drive vehicles via the Jeep Track that begins at the Botanical Gardens. This access is restricted to residents and staff associated with Penang Hill. We can make special arrangements to ferry guests to Hickory via this route if advance notice is given. 
+							Hickory is also accessible by 4-wheel drive vehicles via the steep and winding Jeep Track that starts at the Botanical Gardens. This access is restricted to residents and staff associated with Penang Hill. 
 						</p>
 						<p>
-							This option is costly, less convenient, takes longer, and is much less fun than by train. However, if you do have members who might not be able to take the train or hike, we encourage you to let us know early such that we can make the arrangements for jeep.
+							Exceptionally, arrangements can be made to ferry guests to Hickory via this route provided advance notice is given. This option is not recommended as it is costly, less convenient, takes longer, and is much less fun than by train.
 						</p>
 					</div>
 				</div>
@@ -126,13 +126,10 @@
 					</div>
 					<div class="col-md-12">
 						<p>
-							The railway and hiking trails are  not clearly shown clearly on Google Maps (although the railway is visible in satellite view). Once you reach Lower Station, you should be able to find your way by asking at the ticket office.
+							
 						</p>
 						<p>
-							If you need any extra assistance, please do not hesitate to <a href="contact.html"> contact us</a>.
-						</p>
-						<p>
-							We wish you a pleasant and safe journey, and look forward to seeing you at Hickory!
+							
 						</p>
 					</div>
 				</div>

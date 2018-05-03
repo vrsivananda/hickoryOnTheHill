@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title> Hickory </title>
+
+	<!--Viewport initializes for responsive design-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<!--Include the Lora font-->
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+	<!--Include the javascript code-->
+	<script type="text/javascript" src="HickoryOnTheHill.js"></script>
+	<!--Include the CSS stylesheet-->
+	<link rel="stylesheet" type="text/css" href="HickoryOnTheHill.css"></link>
+	<!--Favicon-->
+	<link rel="icon" type="image/png" href="images/favicon/dawnFavicon.png"/>
+	<!--Include JS and CSS for LightBox-->
+	<script src="lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
+	<link rel="stylesheet" href="lightbox2/dist/css/lightbox.min.css">
+</head>
+
+
+
+
+<body>
+	<!--Start of navbar-->
+	<div id="navBarContainer" class="container">
+		<div id="navBar" class="topnav" >
+			<a href="home.html">Home</a>
+			<a href="gallery.html" class="active">Gallery</a>
+			<a href="attractions.html">Attractions</a>
+			<a href="hiking.html">Hiking</a>
+			<a href="bungalows.html">Bungalows</a>
+			<a href="directions.html">Directions</a>
+			<a href="aboutUs.html">About us</a>
+			<a href="contact.html">Contact</a>
+			<a href="booking.html">Booking</a>
+			<a href="javascript:void(0);" class="icon" onclick="toggleIcon()">&#9776;</a>
+		</div>
+	</div>
+	<!--End of navbar-->
+	
+	<div id="mainContentDiv">
+		
+		<!--Start of home tab-->
+		<div id="home" class="tabContent">
+					
+
+			<!--Start of Introduction-->
+			<div id="introDiv" class="container px-5 py-3"> 
+				<div class="row">
+					<div id="introTitleDiv" class="col-md-12 text-center mb-4 my-2">
+						Hickory's Gallery
+					</div>
+				</div>
+				<!-- Photo Grid -->
+				<div class="row"> 
+				  <div class="column">
+				    <a href="images/gallery/HickoryAerialDay.jpg" data-lightbox="mainGallery" data-title="An aerial view of Hickory">
+				    	<img src="images/gallery/HickoryAerialDay.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryAerialGreenery.jpg" data-lightbox="mainGallery" data-title="Greenery around Hickory">
+				    	<img src="images/gallery/HickoryAerialGreenery.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryAerialDawn.jpg" data-lightbox="mainGallery" data-title="Hickroy at Dawn">
+				   	 <img src="images/gallery/HickoryAerialDawn.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryBalconyDawn.jpg" data-lightbox="mainGallery" data-title="The Balcony">
+				    	<img src="images/gallery/HickoryBalconyDawn.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryCourtyard.jpg" data-lightbox="mainGallery" data-title="The Courtyard">
+				    	<img src="images/gallery/HickoryCourtyard.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryDawnOverGeorgetown.jpg" data-lightbox="mainGallery" data-title="Dawn over Georgetown">
+				    	<img src="images/gallery/HickoryDawnOverGeorgetown.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryGarden.jpg" data-lightbox="mainGallery" data-title="The Hickory Garden">
+				    	<img src="images/gallery/HickoryGarden.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryPatioLawn.jpg" data-lightbox="mainGallery" data-title="The Patio Lawn">
+				    	<img src="images/gallery/HickoryPatioLawn.jpg" style="width:100%">
+				    </a>
+				  </div>
+				  <div class="column">
+				    <a href="images/gallery/HickoryPatio.jpg" data-lightbox="mainGallery" data-title="The Patio">
+				    	<img src="images/gallery/HickoryPatio.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryBed1.jpg" data-lightbox="mainGallery" data-title="Suite 1">
+				    	<img src="images/gallery/HickoryBed1.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryBed1a.jpg" data-lightbox="mainGallery" data-title="Suite 1 ">
+				    	<img src="images/gallery/HickoryBed1a.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryBed1b.jpg" data-lightbox="mainGallery" data-title="Suite 1">
+				    	<img src="images/gallery/HickoryBed1b.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryBed2.jpg" data-lightbox="mainGallery" data-title="Suite 1">
+				    	<img src="images/gallery/HickoryBed2.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryBed2a.jpg" data-lightbox="mainGallery" data-title="Suite 1">
+				    	<img src="images/gallery/HickoryBed2a.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryBed3.jpg" data-lightbox="mainGallery" data-title="Suite 1">
+				    	<img src="images/gallery/HickoryBed3.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryBed3a.jpg" data-lightbox="mainGallery" data-title="Suite 1">
+				    	<img src="images/gallery/HickoryBed3a.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryBed3b.jpg" data-lightbox="mainGallery" data-title="Suite 1">
+				    	<img src="images/gallery/HickoryBed3b.jpg" style="width:100%">
+				    </a>
+				  <a href="images/gallery/HickoryBed5.jpg" data-lightbox="mainGallery" data-title="Double 1">
+				    	<img src="images/gallery/HickoryBed5.jpg" style="width:100%">
+				    </a>
+				  <a href="images/gallery/HickoryBed5a.jpg" data-lightbox="mainGallery" data-title="Double 1">
+				    	<img src="images/gallery/HickoryBed5a.jpg" style="width:100%">
+				    </a>
+				  </div>  
+				  <div class="column">
+				    <a href="images/gallery/HickoryPorch.jpg" data-lightbox="mainGallery" data-title="The Porch">
+				    	<img src="images/gallery/HickoryPorch.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickorySunrise.jpg" data-lightbox="mainGallery" data-title="Sunrise at Hickory">
+				    	<img src="images/gallery/HickorySunrise.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryBed4.jpg" data-lightbox="mainGallery" data-title="Suite 1">
+				    	<img src="images/gallery/HickoryBed4.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryBed6.jpg" data-lightbox="mainGallery" data-title="Double 2">
+				    	<img src="images/gallery/HickoryBed6.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryBed6a.jpg" data-lightbox="mainGallery" data-title="Double 2">
+				    	<img src="images/gallery/HickoryBed6a.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryBed6b.jpg" data-lightbox="mainGallery" data-title="Double 1">
+				    	<img src="images/gallery/HickoryBed6b.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryBed7.jpg" data-lightbox="mainGallery" data-title="Quad 1">
+				    	<img src="images/gallery/HickoryBed7.jpg" style="width:100%">
+				    </a>
+					<a href="images/gallery/HickoryBed7a.jpg" data-lightbox="mainGallery" data-title="Quad 1">
+				    	<img src="images/gallery/HickoryBed7a.jpg" style="width:100%">
+				    </a>
+					<a href="images/gallery/HickoryBed8.jpg" data-lightbox="mainGallery" data-title="Triple 1">
+				    	<img src="images/gallery/HickoryBed8.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryBed8a.jpg" data-lightbox="mainGallery" data-title="Triple 1">
+				    	<img src="images/gallery/HickoryBed8a.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryBed8b.jpg" data-lightbox="mainGallery" data-title="Triple 1">
+				    	<img src="images/gallery/HickoryBed8b.jpg" style="width:100%">
+				    </a>
+				  </div>
+				  <div class="column">
+				    <a href="images/gallery/HickoryLoungeDownstairs.jpg" data-lightbox="mainGallery" data-title="Downstairs Lounge">
+				    	<img src="images/gallery/HickoryLoungeDownstairs.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryLoungeDownstairs1.jpg" data-lightbox="mainGallery" data-title="Downstairs Lounge">
+				    	<img src="images/gallery/HickoryLoungeDownstairs1.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryLoungeDownstairs2.jpg" data-lightbox="mainGallery" data-title="Downstairs Lounge">
+				    	<img src="images/gallery/HickoryLoungeDownstairs2.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryLoungeUpstairs.jpg" data-lightbox="mainGallery" data-title="Upstairs Lounge">
+				    	<img src="images/gallery/HickoryLoungeUpstairs.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryLoungeUpstairs1.jpg" data-lightbox="mainGallery" data-title="Upstairs Lounge">
+				    	<img src="images/gallery/HickoryLoungeUpstairs1.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryBed9.jpg" data-lightbox="mainGallery" data-title="Triple 2">
+				    	<img src="images/gallery/HickoryBed9.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryBed9a.jpg" data-lightbox="mainGallery" data-title="Triple 2">
+				    	<img src="images/gallery/HickoryBed9a.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryBed10.jpg" data-lightbox="mainGallery" data-title="Single 1">
+				    	<img src="images/gallery/HickoryBed10.jpg" style="width:100%">
+				    </a>
+					<a href="images/gallery/HickoryBed10a.jpg" data-lightbox="mainGallery" data-title="Single 1">
+				    	<img src="images/gallery/HickoryBed10a.jpg" style="width:100%">
+				    </a>
+					<a href="images/gallery/HickoryBed11.jpg" data-lightbox="mainGallery" data-title="Single 2">
+				    	<img src="images/gallery/HickoryBed11.jpg" style="width:100%">
+				    </a>
+					<a href="images/gallery/HickoryBed12.jpg" data-lightbox="mainGallery" data-title="Single 3">
+				    	<img src="images/gallery/HickoryBed12.jpg" style="width:100%">
+				    </a>
+				    <a href="images/gallery/HickoryBed12a.jpg" data-lightbox="mainGallery" data-title="Single 3">
+				    	<img src="images/gallery/HickoryBed12a.jpg" style="width:100%">
+				    </a>
+				  </div>
+				</div>
+			</div>
+			<!--End of Introduction-->
+
+			
+		</div>
+		<!--End of home tab-->
+
+
+		<div id="footerDiv">
+			<p>
+				Copyright &copy; Sivananda Rajananda
+			</p>
+		</div>
+	</body>
+	<script>
+		
+		//*/ Script for lightbox begin
+
+	  lightbox.option({
+	    'resizeDuration': 150,
+	    'fadeDuration': 300,
+	    'imageFadeDuration': 300,
+	    'alwaysShowNavOnTouchDevices': true
+	  });
+
+		//*/ Script for lightbox end
+	</script>
+	</html>

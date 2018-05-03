@@ -15,6 +15,22 @@
 	<script type="text/javascript" src="HickoryOnTheHill.js"></script>
 	<!--Include the CSS stylesheet-->
 	<link rel="stylesheet" type="text/css" href="HickoryOnTheHill.css"> </link>
+	<!--Favicon-->
+	<link rel="icon" type="image/png" href="images/favicon/dawnFavicon.png"/>
+	<!--Links for Responsive Table-->
+	<link rel="stylesheet" type="text/css" href="Table_Responsive_v1/Table_Responsive_v1/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="Table_Responsive_v1/Table_Responsive_v1/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="Table_Responsive_v1/Table_Responsive_v1/vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="Table_Responsive_v1/Table_Responsive_v1/vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="Table_Responsive_v1/Table_Responsive_v1/vendor/perfect-scrollbar/perfect-scrollbar.css">
+	<link rel="stylesheet" type="text/css" href="Table_Responsive_v1/Table_Responsive_v1/css/util.css">
+	<link rel="stylesheet" type="text/css" href="Table_Responsive_v1/Table_Responsive_v1/css/main.css">
+	<!--Scripts for Responsive Table-->
+	<script src="Table_Responsive_v1/Table_Responsive_v1/vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="Table_Responsive_v1/Table_Responsive_v1/vendor/bootstrap/js/popper.js"></script>
+	<script src="Table_Responsive_v1/Table_Responsive_v1/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="Table_Responsive_v1/Table_Responsive_v1/vendor/select2/select2.min.js"></script>
+	<script src="Table_Responsive_v1/Table_Responsive_v1/js/main.js"></script>
 </head>
 
 
@@ -25,13 +41,14 @@
 	<div id="navBarContainer" class="container">
 		<div id="navBar" class="topnav" >
 			<a href="home.html">Home</a>
-			<a href="booking.html" class="active">Booking</a>
-			<a href="directions.html">Directions</a>
-			<a href="contact.html">Contact</a>
-			<a href="hiking.html">Hiking</a>
+			<a href="gallery.html">Gallery</a>
 			<a href="attractions.html">Attractions</a>
+			<a href="hiking.html">Hiking</a>
 			<a href="bungalows.html">Bungalows</a>
+			<a href="directions.html">Directions</a>
 			<a href="aboutUs.html">About us</a>
+			<a href="contact.html">Contact</a>
+			<a href="booking.html" class="active">Booking</a>
 			<a href="javascript:void(0);" class="icon" onclick="toggleIcon()">&#9776;</a>
 		</div>
 	</div>
@@ -52,10 +69,182 @@
 				</div>
 				<div class="row">
 					<div id="introTextDiv" class="col-md-12">
-						<p> We look forward to you staying with us. Please use our booking system below to make a reservation.</p>
+						<p> 
+							We look forward to you staying with us.
+							<br/>
+							<br/>
+							A summary of our latest room rates is in the table below. The <b>B&amp;B</b> (Bed and Breakfast) option includes breakfast only, while the <b>Full Board</b> option includes breakfast, lunch, and dinner.
+							<br/>
+							<br/>
+						</p>
 					</div>
 				</div>
 				<!--End of Contact Us Blurb-->
+				<!--Start of Rates Table-->
+				<div class="row">
+					<div class="col-md-12">
+						<div class="limiter">
+							<div class="container-table100">
+								<div class="wrap-table100">
+									<div class="table100">
+										<table>
+											<thead>
+												<tr class="table100-head">
+													<th class="column1">Room</th>
+													<th class="column2">Pax</th>
+													<th class="column3">No. Rooms</th>
+													<th class="column4">No. Single Beds</th>
+													<th class="column5"> No. Double Beds</th>
+													<th class="column6">B&amp;B</th>
+													<th class="column7">Full Board</th>
+													<th class="column8">AirBnB</th>
+
+												</tr>
+											</thead>
+											<tbody>
+													<tr>
+														<td class="column1">7-Suite 1</td>
+														<td class="column2">7</td>
+														<td class="column3">4</td>
+														<td class="column4">1</td>
+														<td class="column5">3</td>
+														<td class="column6">RM 1050</td>
+														<td class="column7">RM 1330</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/21524005" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+													<tr>
+														<td class="column1">Quad 1</td>
+														<td class="column2">4</td>
+														<td class="column3">2</td>
+														<td class="column4">2</td>
+														<td class="column5">1</td>
+														<td class="column6">RM &nbsp;400</td>
+														<td class="column7">RM &nbsp;560</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/22335590" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+													<tr>
+														<td class="column1">Triple 1</td>
+														<td class="column2">3</td>
+														<td class="column3">1</td>
+														<td class="column4">1</td>
+														<td class="column5">1</td>
+														<td class="column6">RM &nbsp;300</td>
+														<td class="column7">RM &nbsp;420</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/22342829" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+													<tr>
+														<td class="column1">Triple 2</td>
+														<td class="column2">3</td>
+														<td class="column3">1</td>
+														<td class="column4">1</td>
+														<td class="column5">1</td>
+														<td class="column6">RM &nbsp;270</td>
+														<td class="column7">RM &nbsp;390</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/22343194" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+													<tr>
+														<td class="column1">Double 1</td>
+														<td class="column2">2</td>
+														<td class="column3">1</td>
+														<td class="column4">-</td>
+														<td class="column5">1</td>
+														<td class="column6">RM &nbsp;260</td>
+														<td class="column7">RM &nbsp;340</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/22309454" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+													<tr>
+														<td class="column1">Double 2</td>
+														<td class="column2">2</td>
+														<td class="column3">1</td>
+														<td class="column4">-</td>
+														<td class="column5">1</td>
+														<td class="column6">RM &nbsp;240</td>
+														<td class="column7">RM &nbsp;320</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/22332112" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+													<tr>
+														<td class="column1">Double 3</td>
+														<td class="column2">2</td>
+														<td class="column3">1</td>
+														<td class="column4">-</td>
+														<td class="column5">1</td>
+														<td class="column6">RM &nbsp;220</td>
+														<td class="column7">RM &nbsp;300</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/22335157" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+													<tr>
+														<td class="column1">Single 1</td>
+														<td class="column2">1</td>
+														<td class="column3">1</td>
+														<td class="column4">1</td>
+														<td class="column5">-</td>
+														<td class="column6">RM &nbsp;150</td>
+														<td class="column7">RM &nbsp;190</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/22343435" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+													<tr>
+														<td class="column1">Single 2</td>
+														<td class="column2">1</td>
+														<td class="column3">1</td>
+														<td class="column4">1</td>
+														<td class="column5">-</td>
+														<td class="column6">RM &nbsp;150</td>
+														<td class="column7">RM &nbsp;190</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/22344044" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+													<tr>
+														<td class="column1">Single 3</td>
+														<td class="column2">1</td>
+														<td class="column3">1</td>
+														<td class="column4">1</td>
+														<td class="column5">-</td>
+														<td class="column6">RM &nbsp;150</td>
+														<td class="column7">RM &nbsp;190</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/22344367" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+													<tr>
+														<td class="column1">Single 4</td>
+														<td class="column2">1</td>
+														<td class="column3">1</td>
+														<td class="column4">1</td>
+														<td class="column5">-</td>
+														<td class="column6">RM &nbsp;150</td>
+														<td class="column7">RM &nbsp;190</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/22344617" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+													<tr>
+														<td class="column1">Single 5</td>
+														<td class="column2">1</td>
+														<td class="column3">1</td>
+														<td class="column4">1</td>
+														<td class="column5">-</td>
+														<td class="column6">RM &nbsp;150</td>
+														<td class="column7">RM &nbsp;190</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/22345009" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--End of Rates Table-->
+				<div class="row">
+					<div id="introTextDiv" class="col-md-12">
+						<p>
+							<br/>
+							Please use our booking system below to make a reservation.
+							Alternatively, you could also book us through AirBnB.
+							<br/>
+							<br/>
+							If you are a group of between 10 and 25 people, you may <a href="contact.html">contact us</a> directly for Group rates.
+							<br/>
+							<br/>
+						</p>
+					</div>
+				</div>
 				<!--Start of Booking System-->
 				<div class="row">
 					<div class="col-md-12">
@@ -64,7 +253,7 @@
 						<!-- end of puxis script -->
 					</div>
 				</div>
-				<!--End of Contact Details-->
+				<!--End of Booking System-->
 			</div>
 		</div>
 		<!--End of booking tab-->
@@ -75,7 +264,7 @@
 		</div>
 		
 		<!-- puxis script -->
-		<script type="text/javascript" src="http://booking.puxis.com/script/1177/">
+		<script type="text/javascript" src="https://booking.puxis.com/script/1177/">
 		</script>
 		<!-- end of puxis script -->
 	</body>

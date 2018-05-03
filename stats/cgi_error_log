@@ -1,0 +1,6 @@
+20180308T231538: www.hickoryonthehill.com/wordpress//xmlrpc.php
+PHP Warning:  require_once(/hermes/bosnacweb01/bosnacweb01ad/b2268/ipg.hickoryonthehillcom/wordpress/wp-content/plugins/jetpack/_inc/lib/class.media.php): failed to open stream: No such file or directory in /hermes/bosnacweb01/bosnacweb01ad/b2268/ipg.hickoryonthehillcom/wordpress/wp-content/plugins/jetpack/class.jetpack.php on line 25
+PHP Fatal error:  require_once(): Failed opening required '/hermes/bosnacweb01/bosnacweb01ad/b2268/ipg.hickoryonthehillcom/wordpress/wp-content/plugins/jetpack/_inc/lib/class.
+20180308T231539: www.hickoryonthehill.com/wordpress//wp-login.php
+PHP Warning:  include_once(/hermes/bosnacweb01/bosnacweb01ad/b2268/ipg.hickoryonthehillcom/wordpress/wp-content/plugins/jetpack/jetpack.php): failed to open stream: No such file or directory in /hermes/bosnacweb01/bosnacweb01ad/b2268/ipg.hickoryonthehillcom/wordpress/wp-settings.php on line 305
+PHP Warning:  include_once(): Failed opening '/hermes/bosnacweb01/bosnacweb01ad/b2268/ipg.hickoryonthehillcom/wordpress/wp-content/plugins/jetpack/jetpack.php' for inclusion (include_path='.:/usr/local/lib/php-5.5.22

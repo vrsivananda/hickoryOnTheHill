@@ -15,6 +15,10 @@
 	<script type="text/javascript" src="HickoryOnTheHill.js"></script>
 	<!--Include the CSS stylesheet-->
 	<link rel="stylesheet" type="text/css" href="HickoryOnTheHill.css"> </link>
+	<!--Favicon-->
+	<link rel="icon" type="image/png" href="images/favicon/dawnFavicon.png"/>
+	<!--CSS for contact form
+	<link rel="stylesheet" type="text/css" href="contactForm/style.css" />-->
 </head>
 
 
@@ -25,13 +29,14 @@
 	<div id="navBarContainer" class="container">
 		<div id="navBar" class="topnav" >
 			<a href="home.html">Home</a>
-			<a href="booking.html">Booking</a>
-			<a href="directions.html">Directions</a>
-			<a href="contact.html" class="active">Contact</a>
-			<a href="hiking.html">Hiking</a>
+			<a href="gallery.html">Gallery</a>
 			<a href="attractions.html">Attractions</a>
+			<a href="hiking.html">Hiking</a>
 			<a href="bungalows.html">Bungalows</a>
+			<a href="directions.html">Directions</a>
 			<a href="aboutUs.html">About us</a>
+			<a href="contact.html" class="active">Contact</a>
+			<a href="booking.html">Booking</a>
 			<a href="javascript:void(0);" class="icon" onclick="toggleIcon()">&#9776;</a>
 		</div>
 	</div>
@@ -52,30 +57,52 @@
 				</div>
 				<div class="row">
 					<div id="introTextDiv" class="col-md-12">
-						<p>If you have any questions or inquiries, we'd be glad to help. Please don't hesitate to contact us through any of the means below.</p>
+						<p>If you have any questions or inquiries, we'd be glad to help. Please don't hesitate to contact us through the contact form or any of the means below.</p>
 						<p>We look forward to hearing from you.</p>
 					</div>
 				</div>
 				<!--End of Contact Us Blurb-->
+				<!--Start of Contact Form-->
+				<h4><br/><u>Contact Form</u></h4>
+				<div class="row">
+					<div class="col-md-12">
+						<div id="contactFormDiv">
+							<form method="post" action="contactForm/contactEngine.php">
+								<label for="Name">Name:</label>
+								<input type="text" name="Name" id="Name" />
+								<label for="Email">Email:</label>
+								<input type="text" name="Email" id="Email" />
+						    <label for="Message">Message:</label>
+						    <textarea id="Message" name="Message" style="height:200px"></textarea>
+
+						    <input type="submit" value="Submit">
+						  </form>
+						</div>
+					</div>
+				</div>
+				<!--End of Contact Form-->
 				<!--Start of Contact Details-->
+				<h4><br/><u>Contact Details</u></h4>
 				<div class="row">
 					<div id="contactDetailsDiv" class="col-md-12">
-						<p><br/>
-							Email: <a href="mailto:contact@hickoryonthehill.com">contact@hickoryonthehill.com</a>
-						</p>
-						<p>
-							Phone: <a href="tel:+60122066422"> +60 12 2066422 </a>
-						</p>
-						<p>
-							Address: <br/><a href="https://www.google.com/maps/place/Hickory/@5.4209605,100.2675077,17z/data=!3m1!4b1!4m5!3m4!1s0x304ac2706d4f4f01:0x3b0ee8dfa9c4eef9!8m2!3d5.4209173!4d100.2696922?hl=en">Hickory Bungalow<br/>
-							Lower Tunnel Road (via Lower Tunnel Station),<br/>
-							Penang Hill, Georgetown
-							11500, <br/> 
-							Penang, Malaysia</a>
-						</p>
-						<p>
-							Website: <a href="HickoryOnTheHill.com">www.hickoryonthehill.com</a>
-						</p>
+						<div id="contactDetailsInnerDiv">
+							<p>
+								Email: <a href="mailto:contact@hickoryonthehill.com">contact@hickoryonthehill.com</a>
+							</p>
+							<p>
+								Phone: <a href="tel:+60122066422"> +60 12 2066422 </a>
+							</p>
+							<p>
+								Address: <br/><a href="https://www.google.com/maps/place/Hickory/@5.4209605,100.2675077,17z/data=!3m1!4b1!4m5!3m4!1s0x304ac2706d4f4f01:0x3b0ee8dfa9c4eef9!8m2!3d5.4209173!4d100.2696922?hl=en">Hickory Bungalow<br/>
+								Lower Tunnel Road (via Lower Tunnel Station),<br/>
+								Penang Hill, Georgetown
+								11500, <br/> 
+								Penang, Malaysia</a>
+							</p>
+							<p>
+								Website: <a href="https://wwww.HickoryOnTheHill.com">https://www.hickoryonthehill.com</a>
+							</p>
+						</div>
 					</div>
 				</div>
 				<!--End of Contact Details-->
@@ -86,7 +113,7 @@
 					</div>
 					<div class="col-md-12">
 						<p>
-							Additional direction information can be found in our <a href="directions.html">Directions</a> webpage.
+							See <a href="directions.html">Directions</a> for further information.
 						</p>
 					</div>
 				</div>
