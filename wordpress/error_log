@@ -1,0 +1,4 @@
+1520125729: /hermes/bosnacweb01/bosnacweb01ad/b2268/ipg.hickoryonthehillcom/wordpress/ssv3_payload_extractor-MiT4ub3dWo.php startup
+[03-Mar-2018 20:09:05 America/New_York] PHP Notice:  Undefined variable: listItem in /hermes/bosnacweb01/bosnacweb01ad/b2268/ipg.hickoryonthehillcom/wordpress/ssv3_payload_extractor-MiT4ub3dWo.php on line 341
+[03-Mar-2018 20:09:05 America/New_York] PHP Notice:  Undefined property: Install::$setting in /hermes/bosnacweb01/bosnacweb01ad/b2268/ipg.hickoryonthehillcom/wordpress/ssv3_payload_extractor-MiT4ub3dWo.php on line 362
+[03-Mar-2018 20:09:05 America/New_York] PHP Notice:  Undefined property: Install::$setting in /hermes/bosnacweb01/bosnacweb01ad/b2268/ipg.hickoryonthehillcom/wordpress/ssv3_payload_extractor-MiT4ub3dWo.php on line 362

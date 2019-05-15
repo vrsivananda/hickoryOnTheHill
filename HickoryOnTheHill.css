@@ -42,6 +42,41 @@ u{
   text-decoration: underline;
 }
 
+blockquote {
+  border-radius: 3px;
+  position: relative;  /*  <--- */
+  font-style: italic;
+  text-align: left;
+  padding: 1rem 1.2rem;
+  width: 90%;  /* create space for the quotes */
+  color: #4a4a4a;
+  margin: 1rem auto 2rem;
+  background: #E8E8E8;
+}
+
+blockquote p{
+  font-size: 16px;
+}
+
+.error{
+  color: red;
+  font-size: 80%;
+}
+
+.iFrameDiv{
+    position: relative;
+    overflow: hidden;
+    padding-top: 70%;
+}
+
+.iFrame{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
 
 /* component CSS */
 
@@ -161,6 +196,10 @@ u{
   background-color:white;
 }
 
+#reviewsDiv{
+  padding: 0px 50px 0px 50px;
+}
+
 /* ====== Contact ====== */
 
 input[type=text], select, textarea {
@@ -272,6 +311,12 @@ input[type=submit]:hover {
         flex: 100%;
         max-width: 100%;
     }
+}
+
+/* ====== Facilities and Services ====== */
+
+.indentLeft{
+  padding-left: 10px; 
 }
 
 /* ====== Footer ====== */

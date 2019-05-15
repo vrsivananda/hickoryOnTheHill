@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title> Hickory </title>
+
+	<!--Viewport initializes for responsive design-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<!--Include the Lora font-->
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+	<!--Include the javascript code-->
+	<script type="text/javascript" src="HickoryOnTheHill.js"></script>
+	<!--Include the CSS stylesheet-->
+	<link rel="stylesheet" type="text/css" href="HickoryOnTheHill.css"> </link>
+	<!--Favicon-->
+	<link rel="icon" type="image/png" href="images/favicon/dawnFavicon.png"/>
+	<!--Links for Responsive Table-->
+	<link rel="stylesheet" type="text/css" href="Table_Responsive_v1/Table_Responsive_v1/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="Table_Responsive_v1/Table_Responsive_v1/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="Table_Responsive_v1/Table_Responsive_v1/vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="Table_Responsive_v1/Table_Responsive_v1/vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="Table_Responsive_v1/Table_Responsive_v1/vendor/perfect-scrollbar/perfect-scrollbar.css">
+	<link rel="stylesheet" type="text/css" href="Table_Responsive_v1/Table_Responsive_v1/css/util.css">
+	<link rel="stylesheet" type="text/css" href="Table_Responsive_v1/Table_Responsive_v1/css/main.css">
+	<!--Scripts for Responsive Table-->
+	<script src="Table_Responsive_v1/Table_Responsive_v1/vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="Table_Responsive_v1/Table_Responsive_v1/vendor/bootstrap/js/popper.js"></script>
+	<script src="Table_Responsive_v1/Table_Responsive_v1/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="Table_Responsive_v1/Table_Responsive_v1/vendor/select2/select2.min.js"></script>
+	<script src="Table_Responsive_v1/Table_Responsive_v1/js/main.js"></script>
+</head>
+
+
+
+
+<body>
+	<!--Start of navbar-->
+	<div id="navBarContainer" class="container">
+		<div id="navBar" class="topnav" >
+			<a href="home.html">Home</a>
+			<a href="gallery.html">Gallery</a>
+			<a href="attractions.html">Attractions</a>
+			<a href="hiking.html">Hiking</a>
+			<a href="bungalows.html">Bungalows</a>
+			<a href="directions.html">Directions</a>
+			<a href="aboutUs.html">About us</a>
+			<a href="contact.html">Contact</a>
+			<a href="booking.html" class="active">Booking</a>
+			<a href="javascript:void(0);" class="icon" onclick="toggleIcon()">&#9776;</a>
+		</div>
+	</div>
+	<!--End of navbar-->
+	
+	<div id="mainContentDiv">
+		
+		<!--Start of booking tab-->
+		<div id="booking" class="tabContent">
+
+			
+			<div id="introDiv" class="container px-5 py-3"> 
+				<!--Start of Booking Blurb-->
+				<div class="row">
+					<div id="introTitleDiv" class="col-md-12 text-center mb-4 my-2">
+						Book us for a stay
+					</div>
+				</div>
+				<div class="row">
+					<div id="introTextDiv" class="col-md-12">
+						<p> 
+							We look forward to you staying with us.
+							<br/>
+							<br/>
+							A summary of our latest room rates is in the table below. The <b>B&amp;B</b> (Bed and Breakfast) option includes breakfast only, while the <b>Full Board</b> option includes breakfast, lunch, and dinner.
+							<br/>
+							<br/>
+							<i>The table below restructures itself to fit the screen width. As such, it is best viewed on a wide screen such as that of a laptop or desktop monitor.</i>
+							<br/>
+						</p>
+					</div>
+				</div>
+				<!--End of Contact Us Blurb-->
+				<!--Start of Rates Table-->
+				<div class="row">
+					<div class="col-md-12">
+						<div class="limiter">
+							<div class="container-table100">
+								<div class="wrap-table100">
+									<div class="table100">
+										<table>
+											<thead>
+												<tr class="table100-head">
+													<th class="column1">Room</th>
+													<th class="column2">Pax</th>
+													<th class="column3">No. Rooms</th>
+													<th class="column4">No. Single Beds</th>
+													<th class="column5"> No. Double Beds</th>
+													<th class="column6">B&amp;B</th>
+													<th class="column7">Full Board</th>
+													<th class="column8">AirBnB</th>
+
+												</tr>
+											</thead>
+											<tbody>
+													<tr>
+														<td class="column1">7-Suite 1</td>
+														<td class="column2">7</td>
+														<td class="column3">4</td>
+														<td class="column4">1</td>
+														<td class="column5">3</td>
+														<td class="column6">RM 1050</td>
+														<td class="column7">RM 1330</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/21524005" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+													<tr>
+														<td class="column1">Quad 1</td>
+														<td class="column2">4</td>
+														<td class="column3">2</td>
+														<td class="column4">2</td>
+														<td class="column5">1</td>
+														<td class="column6">RM &nbsp;400</td>
+														<td class="column7">RM &nbsp;560</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/22335590" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+													<tr>
+														<td class="column1">Triple 1</td>
+														<td class="column2">3</td>
+														<td class="column3">1</td>
+														<td class="column4">1</td>
+														<td class="column5">1</td>
+														<td class="column6">RM &nbsp;300</td>
+														<td class="column7">RM &nbsp;420</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/22342829" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+													<tr>
+														<td class="column1">Triple 2</td>
+														<td class="column2">3</td>
+														<td class="column3">1</td>
+														<td class="column4">1</td>
+														<td class="column5">1</td>
+														<td class="column6">RM &nbsp;270</td>
+														<td class="column7">RM &nbsp;390</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/22343194" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+													<tr>
+														<td class="column1">Double 1</td>
+														<td class="column2">2</td>
+														<td class="column3">1</td>
+														<td class="column4">-</td>
+														<td class="column5">1</td>
+														<td class="column6">RM &nbsp;260</td>
+														<td class="column7">RM &nbsp;340</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/22309454" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+													<tr>
+														<td class="column1">Double 2</td>
+														<td class="column2">2</td>
+														<td class="column3">1</td>
+														<td class="column4">-</td>
+														<td class="column5">1</td>
+														<td class="column6">RM &nbsp;240</td>
+														<td class="column7">RM &nbsp;320</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/22332112" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+													<tr>
+														<td class="column1">Double 3</td>
+														<td class="column2">2</td>
+														<td class="column3">1</td>
+														<td class="column4">-</td>
+														<td class="column5">1</td>
+														<td class="column6">RM &nbsp;220</td>
+														<td class="column7">RM &nbsp;300</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/22335157" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+													<tr>
+														<td class="column1">Single 1</td>
+														<td class="column2">1</td>
+														<td class="column3">1</td>
+														<td class="column4">1</td>
+														<td class="column5">-</td>
+														<td class="column6">RM &nbsp;150</td>
+														<td class="column7">RM &nbsp;190</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/22343435" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+													<tr>
+														<td class="column1">Single 2</td>
+														<td class="column2">1</td>
+														<td class="column3">1</td>
+														<td class="column4">1</td>
+														<td class="column5">-</td>
+														<td class="column6">RM &nbsp;150</td>
+														<td class="column7">RM &nbsp;190</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/22344044" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+													<tr>
+														<td class="column1">Single 3</td>
+														<td class="column2">1</td>
+														<td class="column3">1</td>
+														<td class="column4">1</td>
+														<td class="column5">-</td>
+														<td class="column6">RM &nbsp;150</td>
+														<td class="column7">RM &nbsp;190</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/22344367" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+													<tr>
+														<td class="column1">Single 4</td>
+														<td class="column2">1</td>
+														<td class="column3">1</td>
+														<td class="column4">1</td>
+														<td class="column5">-</td>
+														<td class="column6">RM &nbsp;150</td>
+														<td class="column7">RM &nbsp;190</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/22344617" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+													<tr>
+														<td class="column1">Single 5</td>
+														<td class="column2">1</td>
+														<td class="column3">1</td>
+														<td class="column4">1</td>
+														<td class="column5">-</td>
+														<td class="column6">RM &nbsp;150</td>
+														<td class="column7">RM &nbsp;190</td>
+														<td class="column8"><a href="https://www.airbnb.com/rooms/22345009" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+													</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--End of Rates Table-->
+				<div class="row">
+					<div id="introTextDiv" class="col-md-12">
+						<p>
+							<br/>
+							Please use our booking system below to make a reservation.
+							Alternatively, you could also book us through AirBnB by clicking on one of the AirBnB icons in the table above.
+							<br/>
+							<br/>
+							If you are a group of between 10 and 25 people, you may <a href="contact.html">contact us</a> directly for Group rates.
+							<br/>
+							<br/>
+						</p>
+					</div>
+				</div>
+				<!--Start of Booking System-->
+				<div class="row">
+					<div class="col-md-12">
+						<!-- puxis script -->
+						<div id="PuxisEmbed"></div>
+						<!-- end of puxis script -->
+					</div>
+				</div>
+				<!--End of Booking System-->
+			</div>
+		</div>
+		<!--End of booking tab-->
+
+
+		<div id="footerDiv">
+			Copyright &copy; Sivananda Rajananda
+		</div>
+		
+		<!-- puxis script -->
+		<script type="text/javascript" src="https://booking.puxis.com/script/1177/">
+		</script>
+		<!-- end of puxis script -->
+	</body>
+	</html>

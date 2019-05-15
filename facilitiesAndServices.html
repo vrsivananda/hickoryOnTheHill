@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title> Hickory </title>
+
+	<!--Viewport initializes for responsive design-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<!--Include the Lora font-->
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+	<!--Include the javascript code-->
+	<script type="text/javascript" src="HickoryOnTheHill.js"></script>
+	<!--Include the CSS stylesheet-->
+	<link rel="stylesheet" type="text/css" href="HickoryOnTheHill.css"> </link>
+	<!--Favicon-->
+	<link rel="icon" type="image/png" href="images/favicon/dawnFavicon.png"/>
+</head>
+
+
+
+
+<body>
+	<!--Start of navbar-->
+	<div id="navBarContainer" class="container">
+		<div id="navBar" class="topnav" >
+			<a href="home.html">Home</a>
+			<a href="gallery.html">Gallery</a>
+			<a href="facilitiesAndServices.html" class="active">Facilities & Services</a>
+			<a href="attractions.html">Attractions</a>
+			<a href="hiking.html">Hiking</a>
+			<a href="bungalows.html">Bungalows</a>
+			<a href="directions.html">Directions</a>
+			<a href="aboutUs.html">About us</a>
+			<a href="contact.html">Contact</a>
+			<a href="reviews.html">Reviews</a>
+			<a href="booking.html">Booking</a>
+			<a href="javascript:void(0);" class="icon" onclick="toggleIcon()">&#9776;</a>
+		</div>
+	</div>
+	<!--End of navbar-->
+	
+	<div id="mainContentDiv">
+		
+		<!--Start of F&S tab-->
+		<div id="facilitiesServices" class="tabContent">
+			<div id="introDiv" class="container px-5 py-3"> 
+				<!--Start of Facilities and Services Blurb-->
+				<div class="row">
+					<div id="introTitleDiv" class="col-md-12 text-center mb-4 my-2">
+						Facilities and Services
+					</div>
+				</div>
+				<div class="row">
+					<div id="introTextDiv" class="col-md-12">
+						<p>
+							We offer a number of facilities and services for your convenience. Here is a list of what you can expect to make your stay here more comfortable:
+						</p>
+					</div>
+				</div>
+				<!--End of Facilities and Services Blurb-->
+				<!--Start of Facilities and Services container-->
+				<div class="row">
+					<div class="col-md-12">
+						<h5><br/><b>Laundry Service and Washing Machine</b></h5>
+						<p>
+							We offer laundry service. You can expect your clothes to be washed, dried, ironed and folded within 24 hours of sending it to us. In addition, you are welcome to use the washing machine to wash your clothes yourself.
+						</p>
+						<h5><br/><b>Hickory Kitchen</b></h5>
+						<p>
+							Our Kitchen is open from 8 am to 9 pm. Feel free to browse our menu below to see what kinds of food and beverages we offer. (To open the menu in a new tab, click <a href="HickoryMenu.pdf" target="_blank">here</a>.)
+						</p>
+						<div class="iFrameDiv">
+ 							<iframe  class="iFrame" src="HickoryMenu.pdf" width="100%" height="100%"> </iframe>
+ 						</div>
+						<h5><br/><br/><b>Health, Wellness & History</b></h5>
+						<p>
+							Embark on half-day* or full-day* programme that combines gentle exercise for the mind and body; coupled with a cultural and historic appreciation of Penang Hill:
+						</p>
+						<!-- Start of indentLeft div-->
+						<div class="indentLeft">
+							<h6><br/><u>Optimising Health & Wellness through Body, Mind & Nature</u></h6>
+							<ul>
+								<li>Embark on a journey of wellness by stepping into Nature.</li>
+								<li>Experience the cool, fresh and revitalising environment as you interact with Nature.</li>
+								<li>Understand and embrace the spectacular beauty of the Hill&#8217;s Flora & Fauna</li>
+								<li>Our body is designed to be in harmony with Nature</li>
+								<li>Learn how to harness the power of Nature and understand its impact on our well-being</li>
+								<li>Appreciate Hiking Do&#8217;s & Don&#8217;ts and its impact on Heart, Mind & Body</li>
+								<li>Walk and Work towards creating a culture of Fitness, Health & Wellbeing</li>
+								<li>Recharge your Energy & Vitality</li>
+								</li>
+							</ul>
+							<h6><br/><u>A Trek through Time</u></h6>
+							<ul>
+								<li>Experience the rich cultural history and breath-taking sights of Penang Hill</li>
+								<li>Explore the myriad Jungle paths criss-crossing the Hill</li>
+								<li>Immerse in the history of the Colonial Bungalows that border the wooded walks</li>
+								<li>Know the historical journey of the Penang Hill Railway from 1906 to the present</li>
+							</ul>
+							<blockquote>
+								<p>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Look deep into Nature and you will understand everything better."&nbsp;&nbsp;~ Albert Einstein
+								</p>
+							</blockquote>
+							<p>
+								* - <b>Half-day</b>: 2-3 hours either in the morning, in the afternoon, or at night.<br>
+								&nbsp;&nbsp;&nbsp;- <b>Full-day</b>: Two half-day programmes with a lunch or dinner break in between.<br>
+								&nbsp;&nbsp;&nbsp;- Both programmes are flexible, to cater to the needs of the participants. They include short breaks in-between as and when needed.
+							</p>
+						</div>
+						<!-- End of indentLeft div-->
+					</div>
+				</div>
+				<!--End of Facilities and Services container-->
+			</div>
+		</div>
+		<!--End of Facilities and Services tab-->
+
+
+		<div id="footerDiv">
+			Copyright &copy; Sivananda Rajananda
+		</div>
+	</body>
+	</html>

@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title> Hickory </title>
+
+	<!--Viewport initializes for responsive design-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<!--Include the Lora font-->
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+	<!--Include the javascript code-->
+	<script type="text/javascript" src="HickoryOnTheHill.js"></script>
+	<!--Include the CSS stylesheet-->
+	<link rel="stylesheet" type="text/css" href="HickoryOnTheHill.css"> </link>
+	<!--Favicon-->
+	<link rel="icon" type="image/png" href="images/favicon/dawnFavicon.png"/>
+</head>
+
+
+
+
+<body>
+	<!--Start of navbar-->
+	<div id="navBarContainer" class="container">
+		<div id="navBar" class="topnav" >
+			<a href="home.html">Home</a>
+			<a href="gallery.html">Gallery</a>
+			<a href="facilitiesAndServices.html">Facilities & Services</a>
+			<a href="attractions.html">Attractions</a>
+			<a href="hiking.html">Hiking</a>
+			<a href="bungalows.html">Bungalows</a>
+			<a href="directions.html">Directions</a>
+			<a href="aboutUs.html">About us</a>
+			<a href="contact.html">Contact</a>
+			<a href="reviews.html" class="active">Reviews</a>
+			<a href="booking.html">Booking</a>
+			<a href="javascript:void(0);" class="icon" onclick="toggleIcon()">&#9776;</a>
+		</div>
+	</div>
+	<!--End of navbar-->
+	
+	<div id="mainContentDiv">
+		
+		<!--Start of Reviews tab-->
+		<div id="facilitiesServices" class="tabContent">
+			<div id="introDiv" class="container px-5 py-3"> 
+				<!--Start of Reviews Blurb-->
+				<div class="row">
+					<div id="introTitleDiv" class="col-md-12 text-center mb-4 my-2">
+						Guest Reviews
+					</div>
+				</div>
+				<div class="row">
+					<div id="introTextDiv" class="col-md-12">
+						<p>
+							It is important to us that our guests have a pleasant stay. <br>
+							In addition, we hope to give you an unbiased persepctive of what our guests think of us. As such, be assured that the reviews below are not filtered in any way.
+						</p>
+						<p>
+							Please take some time to look at what our wonderful guests have had to say about us. 
+						</p>
+					</div>
+				</div>
+				<!--End of Reviews Blurb-->
+				<!--Start of Reviews container-->
+				<div class="row">
+					<div class="col-md-12">
+						<!--Google-->
+						<h4><br/><u>Google</u></h4>
+						<p>The latest 5 reviews on Google are show below.<br>
+							(You can see the complete list of Google Reviews and our overall rating <a href="https://www.google.com/search?q=hickory+on+penang+hill&oq=hickory+on+penang+hill&aqs=chrome..69i57.7021j1j1&sourceid=chrome&ie=UTF-8#lrd=0x304ac2706d4f4f01:0x3b0ee8dfa9c4eef9,1,,," target="_blank">here</a>.)
+							<br><br>
+						</p>
+						<div id="reviewsDiv" class="col-md-12">
+							<script type="text/javascript"> 
+							var review_token = 'kyDFsupJ1zS2lQDS7MpQ9eiMHagZxxF2c4HFkqu6MNzYsH1qpJ'; 
+							var review_target = 'review-container'; 
+							</script> 
+							<script src="https://reviewsonmywebsite.com/js/embed.js?v=8" type="text/javascript">
+							</script> 
+							<div id="review-container">
+							</div>
+						</div>
+						<!--Facebook-->
+						<h4><br/><u>Facebook</u></h4>
+						<p>
+							Here are the reviews from our <a href="https://www.facebook.com/HickoryOnPenangHill" target="_blank">Facebook page</a>: 
+						</p>
+						<div>
+							<!--Wei Leong-->
+ 							<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fultimatedarthewok%2Fposts%2F10156141100892227&width=500" width="500" height="515" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+							<!--Edward Nathan-->
+ 							<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FEdwardNathan%2Fposts%2F10217982226777968&width=500" width="500" height="161" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+ 							<!--Jess Oon-->
+ 							<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjess.oon.37%2Fposts%2F2103880576299588&width=500" width="500" height="180" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+ 							<!--Ch'ng Hooi Pheng-->
+ 							<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fchng.h.pheng%2Fposts%2F10156854316749717&width=500" width="500" height="199" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+ 							<!--Ch'ng Hooi Chin-->
+ 							<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fchng.hooichin%2Fposts%2F10218179460422431&width=500" width="500" height="161" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+ 							<!--Jason Foo-->
+ 							<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjteckonn%2Fposts%2F1889011454477708&width=500" width="500" height="142" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+ 						</div>
+						<!--Guestbook-->
+						<h4><br/><u>Guestbook</u></h4>
+						<p>
+							We have a Guestbook on our premises which is open for Guests to express how they felt about their stay. Feel free to browse through what they have written (and drawn!):  <br>
+							(To open the Guestbook pdf in a new tab, click <a href="guestbookReviews.pdf" target="_blank">here</a>.) 
+						</p>
+						<div class="iFrameDiv">
+ 							<iframe  class="iFrame" src="guestbookReviews.pdf" width="100%" height="100%"> </iframe>
+ 						</div>
+						<!--Airbnb-->
+						<h4><br/><u>Airbnb</u></h4>
+						<p>
+							Our rooms are also listed individually on Airbnb. Here are some of the reviews from our Airbnb customers: <br>
+							(To see our reviews and listings on the Airbnb website, click <a href="https://www.airbnb.com/users/show/49541997" target="_blank">here</a>.) 
+						</p>
+						<div class="iFrameDiv">
+ 							<iframe  class="iFrame" src="airbnbReviews.pdf" width="100%" height="100%"> </iframe>
+ 						</div>
+						<p>
+							<br>
+							<br>
+							Come stay with us so that you, too, can leave a review! 
+						</p>
+ 						
+					</div>
+				</div>
+				<!--End of Reviews container-->
+			</div>
+		</div>
+		<!--End of Reviews tab-->
+
+
+		<div id="footerDiv">
+			Copyright &copy; Sivananda Rajananda
+		</div>
+	</body>
+	</html>

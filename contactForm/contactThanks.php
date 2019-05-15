@@ -14,9 +14,9 @@
 	<div>
 		
 		<br />	
-		<h4>Your message has been sent!</h4>
+		<h4>Hi, your message has been sent!</h4>
 		<br />
-		<h5>Thank you for your message, and we will get back to you shortly!</h5>
+		<h5>Thank you for contacting us, and we will get back to you shortly!</h5>
 		<br />
 		<h5>Please click <a href="../contact.html">here</a> to return to our website.</h5>
 		

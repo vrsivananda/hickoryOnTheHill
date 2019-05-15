@@ -31,6 +31,9 @@
 	<script src="Table_Responsive_v1/Table_Responsive_v1/vendor/bootstrap/js/bootstrap.min.js"></script>
 	<script src="Table_Responsive_v1/Table_Responsive_v1/vendor/select2/select2.min.js"></script>
 	<script src="Table_Responsive_v1/Table_Responsive_v1/js/main.js"></script>
+	<!--Include JS and CSS for LightBox-->
+	<script src="lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
+	<link rel="stylesheet" href="lightbox2/dist/css/lightbox.min.css">
 </head>
 
 
@@ -42,12 +45,14 @@
 		<div id="navBar" class="topnav" >
 			<a href="home.html">Home</a>
 			<a href="gallery.html">Gallery</a>
+			<a href="facilitiesAndServices.html">Facilities & Services</a>
 			<a href="attractions.html">Attractions</a>
 			<a href="hiking.html">Hiking</a>
 			<a href="bungalows.html">Bungalows</a>
 			<a href="directions.html">Directions</a>
 			<a href="aboutUs.html">About us</a>
 			<a href="contact.html">Contact</a>
+			<a href="reviews.html">Reviews</a>
 			<a href="booking.html" class="active">Booking</a>
 			<a href="javascript:void(0);" class="icon" onclick="toggleIcon()">&#9776;</a>
 		</div>
@@ -73,8 +78,19 @@
 							We look forward to you staying with us.
 							<br/>
 							<br/>
-							A summary of our latest room rates is in the table below. The <b>B&amp;B</b> (Bed and Breakfast) option includes breakfast only, while the <b>Full Board</b> option includes breakfast, lunch, and dinner.
+							An indicative summary of our latest Bed & Breakfast (B&amp;B) rates is in the table below.
+							<br/> 
+							Please note that there may be slight seasonal variations that are not captured in this table, but which will be displayed when enquiring through the booking form shown further below.
 							<br/>
+							<br/>
+							We also serve Lunch & Dinner, including Steamboat and BBQ, starting from RM30/head.  A sample of what we have to offer is shown in our <a href="HickoryMenu.pdf" target="blank">Menu</a>.
+							<br/>
+							You can let us know on the Booking form if you would like additional meals; or you can decide later too, preferably a few days before check-in.
+							<br/>
+							These additional meals can be paid for upon check-out.
+							<br/>
+							<br/>
+							<i>The table below restructures itself to fit the screen width. As such, it is best viewed on a wide screen such as that of a laptop or desktop monitor.</i>
 							<br/>
 						</p>
 					</div>
@@ -91,136 +107,245 @@
 											<thead>
 												<tr class="table100-head">
 													<th class="column1">Room</th>
-													<th class="column2">Pax</th>
-													<th class="column3">No. Rooms</th>
-													<th class="column4">No. Single Beds</th>
-													<th class="column5"> No. Double Beds</th>
-													<th class="column6">B&amp;B</th>
-													<th class="column7">Full Board</th>
-													<th class="column8">AirBnB</th>
-
+													<th class="column2">Photos</th>
+													<th class="column3">Pax</th>
+													<th class="column4">Room Config</th>
+													<th class="column5">No. Single Beds</th>
+													<th class="column6">No. Double Beds</th>
+													<th class="column7">No. Bathrooms</th>
+													<th class="column8">B&amp;B</th>
 												</tr>
 											</thead>
 											<tbody>
 													<tr>
-														<td class="column1">7-Suite 1</td>
-														<td class="column2">7</td>
+														<td class="column1">Quad Luxe</td>
+														<td class="column2">
+															<a href="/images/rooms/quad_luxe/01.jpg" data-lightbox="quad_luxe" data-title="Quad Luxe">
+																<img src="/images/rooms/quad_luxe/01m.jpg" style="width: 40px; margin: 3px 0;" />
+															</a>
+															<a href="/images/rooms/quad_luxe/02.jpg" data-lightbox="quad_luxe" data-title="Quad Luxe">
+																<img src="/images/rooms/quad_luxe/02m.jpg" style="width: 40px; margin: 3px 0;" />
+															</a><br />
+															<a href="/images/rooms/quad_luxe/03.jpg" data-lightbox="quad_luxe" data-title="Quad Luxe">
+																<img src="/images/rooms/quad_luxe/03m.jpg" style="width: 40px; margin: 3px 0;" />
+															</a>
+															<a href="/images/rooms/quad_luxe/04.jpg" data-lightbox="quad_luxe" data-title="Quad Luxe">
+																<img src="/images/rooms/quad_luxe/04m.jpg" style="width: 40px; margin: 3px 0;" />
+															</a>
+														</td>
 														<td class="column3">4</td>
-														<td class="column4">1</td>
-														<td class="column5">3</td>
-														<td class="column6">RM 1050</td>
-														<td class="column7">RM 1330</td>
-														<td class="column8"><a href="https://www.airbnb.com/rooms/21524005" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+														<td class="column4">Twin</td>
+														<td class="column5">-</td>
+														<td class="column6">2</td>
+														<td class="column7">1</td>
+														<td class="column8">RM 660</td>
+													</tr>
+													<tr>
+														<td class="column1">Triple Luxe</td>
+														<td class="column2">
+															<a href="/images/rooms/triple_luxe/01.jpg" data-lightbox="triple_luxe" data-title="Triple Luxe">
+																<img src="/images/rooms/triple_luxe/01m.jpg" style="width: 40px; margin: 3px 0;" />
+															</a>
+															<a href="/images/rooms/triple_luxe/02.jpg" data-lightbox="triple_luxe" data-title="Triple Luxe">
+																<img src="/images/rooms/triple_luxe/02m.jpg" style="width: 40px; margin: 3px 0;" />
+															</a>
+															<a href="/images/rooms/triple_luxe/03.jpg" data-lightbox="triple_luxe" data-title="Triple Luxe">
+																<img src="/images/rooms/triple_luxe/03m.jpg" style="width: 40px; margin: 3px 0;" />
+															</a><br />
+															<a href="/images/rooms/triple_luxe/04.jpg" data-lightbox="triple_luxe" data-title="Triple Luxe">
+																<img src="/images/rooms/triple_luxe/04m.jpg" style="width: 40px; margin: 3px 0;" />
+															</a>
+															<a href="/images/rooms/triple_luxe/05.jpg" data-lightbox="triple_luxe" data-title="Triple Luxe">
+																<img src="/images/rooms/triple_luxe/05m.jpg" style="width: 40px; margin: 3px 0;" />
+															</a>
+														</td>
+														<td class="column3">3</td>
+														<td class="column4">Twin</td>
+														<td class="column5">1</td>
+														<td class="column6">1</td>
+														<td class="column7">1</td>
+														<td class="column8">RM 560</td>
 													</tr>
 													<tr>
 														<td class="column1">Quad 1</td>
-														<td class="column2">4</td>
-														<td class="column3">2</td>
-														<td class="column4">2</td>
-														<td class="column5">1</td>
-														<td class="column6">RM &nbsp;400</td>
-														<td class="column7">RM &nbsp;560</td>
-														<td class="column8"><a href="https://www.airbnb.com/rooms/22335590" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+														<td class="column2">
+															<a href="/images/rooms/quad1/01.jpg" data-lightbox="quad1" data-title="Quad 1">
+																<img src="/images/rooms/quad1/01m.jpg" style="width: 40px;" />
+															</a>
+															<a href="/images/rooms/quad1/02.jpg" data-lightbox="quad1" data-title="Quad 1">
+																<img src="/images/rooms/quad1/02m.jpg" style="width: 40px;" />
+															</a>
+														</td>
+														<td class="column3">4</td>
+														<td class="column4">Twin</td>
+														<td class="column5">2</td>
+														<td class="column6">1</td>
+														<td class="column7">1</td>
+														<td class="column8">RM &nbsp;460</td>
 													</tr>
 													<tr>
 														<td class="column1">Triple 1</td>
-														<td class="column2">3</td>
-														<td class="column3">1</td>
+														<td class="column2">
+															<a href="/images/rooms/triple1/01.jpg" data-lightbox="triple1" data-title="Triple 1">
+																<img src="/images/rooms/triple1/01m.jpg" style="width: 40px;" />
+															</a>
+															<a href="/images/rooms/triple1/02.jpg" data-lightbox="triple1" data-title="Triple 1">
+																<img src="/images/rooms/triple1/02m.jpg" style="width: 40px;" />
+															</a>
+															<a href="/images/rooms/triple1/03.jpg" data-lightbox="triple1" data-title="Triple 1">
+																<img src="/images/rooms/triple1/03m.jpg" style="width: 40px;" />
+															</a>
+														</td>
+														<td class="column3">3</td>
 														<td class="column4">1</td>
 														<td class="column5">1</td>
-														<td class="column6">RM &nbsp;300</td>
-														<td class="column7">RM &nbsp;420</td>
-														<td class="column8"><a href="https://www.airbnb.com/rooms/22342829" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+														<td class="column6">1</td>
+														<td class="column7">1</td>
+														<td class="column8">RM &nbsp;350</td>
 													</tr>
 													<tr>
 														<td class="column1">Triple 2</td>
-														<td class="column2">3</td>
-														<td class="column3">1</td>
+														<td class="column2">
+															<a href="/images/rooms/triple2/01.jpg" data-lightbox="triple2" data-title="Triple 2">
+																<img src="/images/rooms/triple2/01m.jpg" style="width: 40px;" />
+															</a>
+															<a href="/images/rooms/triple2/02.jpg" data-lightbox="triple2" data-title="Triple 2">
+																<img src="/images/rooms/triple2/02m.jpg" style="width: 40px;" />
+															</a>
+														</td>
+														<td class="column3">3</td>
 														<td class="column4">1</td>
 														<td class="column5">1</td>
-														<td class="column6">RM &nbsp;270</td>
-														<td class="column7">RM &nbsp;390</td>
-														<td class="column8"><a href="https://www.airbnb.com/rooms/22343194" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+														<td class="column6">1</td>
+														<td class="column7">1</td>
+														<td class="column8">RM &nbsp;320</td>
 													</tr>
 													<tr>
 														<td class="column1">Double 1</td>
-														<td class="column2">2</td>
-														<td class="column3">1</td>
-														<td class="column4">-</td>
-														<td class="column5">1</td>
-														<td class="column6">RM &nbsp;260</td>
-														<td class="column7">RM &nbsp;340</td>
-														<td class="column8"><a href="https://www.airbnb.com/rooms/22309454" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+														<td class="column2">
+															<a href="/images/rooms/double1/01.jpg" data-lightbox="double1" data-title="Double 1">
+																<img src="/images/rooms/double1/01m.jpg" style="width: 40px;" />
+															</a>
+															<a href="/images/rooms/double1/02.jpg" data-lightbox="double1" data-title="Double 1">
+																<img src="/images/rooms/double1/02m.jpg" style="width: 40px;" />
+															</a>
+														</td>
+														<td class="column3">2</td>
+														<td class="column4">1</td>
+														<td class="column5">-</td>
+														<td class="column6">1</td>
+														<td class="column7">1</td>
+														<td class="column8">RM &nbsp;290</td>
 													</tr>
 													<tr>
 														<td class="column1">Double 2</td>
-														<td class="column2">2</td>
-														<td class="column3">1</td>
-														<td class="column4">-</td>
-														<td class="column5">1</td>
-														<td class="column6">RM &nbsp;240</td>
-														<td class="column7">RM &nbsp;320</td>
-														<td class="column8"><a href="https://www.airbnb.com/rooms/22332112" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+														<td class="column2">
+															<a href="/images/rooms/double2/01.jpg" data-lightbox="double2" data-title="Double 2">
+																<img src="/images/rooms/double2/01m.jpg" style="width: 40px;" />
+															</a>
+															<a href="/images/rooms/double2/02.jpg" data-lightbox="double2" data-title="Double 2">
+																<img src="/images/rooms/double2/02m.jpg" style="width: 40px;" />
+															</a>
+														</td>
+														<td class="column3">2</td>
+														<td class="column4">1</td>
+														<td class="column5">-</td>
+														<td class="column6">1</td>
+														<td class="column7">1</td>
+														<td class="column8">RM &nbsp;270</td>
 													</tr>
 													<tr>
 														<td class="column1">Double 3</td>
-														<td class="column2">2</td>
-														<td class="column3">1</td>
-														<td class="column4">-</td>
-														<td class="column5">1</td>
-														<td class="column6">RM &nbsp;220</td>
-														<td class="column7">RM &nbsp;300</td>
-														<td class="column8"><a href="https://www.airbnb.com/rooms/22335157" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
-													</tr>
-													<tr>
-														<td class="column1">Single 1</td>
-														<td class="column2">1</td>
-														<td class="column3">1</td>
+														<td class="column2">
+															<a href="/images/rooms/double3/01.jpg" data-lightbox="double3" data-title="Double 3">
+																<img src="/images/rooms/double3/01m.jpg" style="width: 40px;" />
+															</a>
+														</td>
+														<td class="column3">2</td>
 														<td class="column4">1</td>
 														<td class="column5">-</td>
-														<td class="column6">RM &nbsp;150</td>
-														<td class="column7">RM &nbsp;190</td>
-														<td class="column8"><a href="https://www.airbnb.com/rooms/22343435" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+														<td class="column6">1</td>
+														<td class="column7">1</td>
+														<td class="column8">RM &nbsp;250</td>
 													</tr>
 													<tr>
-														<td class="column1">Single 2</td>
-														<td class="column2">1</td>
-														<td class="column3">1</td>
+														<td class="column1">SinglePlus 1</td>
+														<td class="column2">
+															<a href="/images/rooms/single_plus1/01.jpg" data-lightbox="single_plus1" data-title="Single plus 1">
+																<img src="/images/rooms/single_plus1/01m.jpg" style="width: 40px;" />
+															</a>
+															<a href="/images/rooms/single_plus1/02.jpg" data-lightbox="single_plus1" data-title="Single plus 1">
+																<img src="/images/rooms/single_plus1/02m.jpg" style="width: 40px;" />
+															</a>
+														</td>
+														<td class="column3">2</td>
 														<td class="column4">1</td>
-														<td class="column5">-</td>
-														<td class="column6">RM &nbsp;150</td>
-														<td class="column7">RM &nbsp;190</td>
-														<td class="column8"><a href="https://www.airbnb.com/rooms/22344044" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+														<td class="column5">2</td>
+														<td class="column6">-</td>
+														<td class="column7">1</td>
+														<td class="column8">RM &nbsp;220</td>
 													</tr>
 													<tr>
-														<td class="column1">Single 3</td>
-														<td class="column2">1</td>
-														<td class="column3">1</td>
+														<td class="column1">SinglePlus 2</td>
+														<td class="column2">
+															<a href="/images/rooms/single_plus2/01.jpg" data-lightbox="single_plus2" data-title="Single plus 2">
+																<img src="/images/rooms/single_plus2/01m.jpg" style="width: 40px;" />
+															</a>
+														</td>
+														<td class="column3">2</td>
 														<td class="column4">1</td>
-														<td class="column5">-</td>
-														<td class="column6">RM &nbsp;150</td>
-														<td class="column7">RM &nbsp;190</td>
-														<td class="column8"><a href="https://www.airbnb.com/rooms/22344367" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+														<td class="column5">2</td>
+														<td class="column6">-</td>
+														<td class="column7">1</td>
+														<td class="column8">RM &nbsp;220</td>
+													</tr>
+													<tr>
+														<td class="column1">SinglePlus 3</td>
+														<td class="column2">
+															<a href="/images/rooms/single_plus2/01.jpg" data-lightbox="single_plus3" data-title="Single plus 2">
+																<img src="/images/rooms/single_plus2/01m.jpg" style="width: 40px;" />
+															</a>
+														</td>
+														<td class="column3">2</td>
+														<td class="column4">1</td>
+														<td class="column5">2</td>
+														<td class="column6">-</td>
+														<td class="column7">1</td>
+														<td class="column8">RM &nbsp;220</td>
 													</tr>
 													<tr>
 														<td class="column1">Single 4</td>
-														<td class="column2">1</td>
+														<td class="column2">
+															<a href="/images/rooms/single5/01.jpg" data-lightbox="single5" data-title="Single 4">
+																<img src="/images/rooms/single5/01m.jpg" style="width: 40px;" />
+															</a>
+															<a href="/images/rooms/single5/02.jpg" data-lightbox="single5" data-title="Single 4">
+																<img src="/images/rooms/single5/02m.jpg" style="width: 40px;" />
+															</a>
+														</td>
 														<td class="column3">1</td>
 														<td class="column4">1</td>
-														<td class="column5">-</td>
-														<td class="column6">RM &nbsp;150</td>
-														<td class="column7">RM &nbsp;190</td>
-														<td class="column8"><a href="https://www.airbnb.com/rooms/22344617" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+														<td class="column5">1</td>
+														<td class="column6">-</td>
+														<td class="column7">1</td>
+														<td class="column8">RM &nbsp;180</td>
 													</tr>
 													<tr>
 														<td class="column1">Single 5</td>
-														<td class="column2">1</td>
+														<td class="column2">
+															<a href="/images/rooms/single5/01.jpg" data-lightbox="single5" data-title="Single 5">
+																<img src="/images/rooms/single5/01m.jpg" style="width: 40px;" />
+															</a>
+															<a href="/images/rooms/single5/02.jpg" data-lightbox="single5" data-title="Single 5">
+																<img src="/images/rooms/single5/02m.jpg" style="width: 40px;" />
+															</a>
+														</td>
 														<td class="column3">1</td>
 														<td class="column4">1</td>
-														<td class="column5">-</td>
-														<td class="column6">RM &nbsp;150</td>
-														<td class="column7">RM &nbsp;190</td>
-														<td class="column8"><a href="https://www.airbnb.com/rooms/22345009" target="_blank"><img src="images/booking/airbnbLogo.png"></a></td>
+														<td class="column5">1</td>
+														<td class="column6">-</td>
+														<td class="column7">1</td>
+														<td class="column8">RM &nbsp;180</td>
 													</tr>
 											</tbody>
 										</table>
@@ -236,10 +361,9 @@
 						<p>
 							<br/>
 							Please use our booking system below to make a reservation.
-							Alternatively, you could also book us through AirBnB.
 							<br/>
 							<br/>
-							If you are a group of between 10 and 25 people, you may <a href="contact.html">contact us</a> directly for Group rates.
+							If you are a large group and are not sure of the best room configuration, you may <a href="contact.html">contact us</a> directly.
 							<br/>
 							<br/>
 						</p>
